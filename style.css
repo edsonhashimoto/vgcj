@@ -1,3 +1,77 @@
-h1 {
-    background-color: blue;
+.navbar {
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+}
+
+.header {
+    background-color: rgb(245, 224, 101);     
+    height: 45px;
+    padding-top: 10px;    
+}
+
+.menu{
+    padding: 15px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.language {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.imgLanguage, .imgEmail, .imgWhatsapp{
+    height: 30px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 2rem;    
+    padding: 40px;
+}
+
+.products-container{
+    width: 900px;
+}
+
+.product-item {
+    width: 280px;
+    height: 250px;
+    border: 1px solid grey;
+    margin: 10px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.teste {
+    margin: 40px;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    padding: 40px;
+}
+
+.teste2 {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: rgb(245, 224, 101);
+    height: 300px;
+}
+
+.teste3 {
+    height: 100px;
+}
+
+.footerCopyright {
+    background-color: black;
+    height: 45px;
+}
+
+.copyright {
+    color: white;    
+
 }

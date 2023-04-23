@@ -30,14 +30,15 @@
 
     </footer>
     -->
+
     
-    <div class="container-fluid" >
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 text-center" >
+                <div class="col-4 text-center">
                     <img src="img/logo-ancora-vgcj-group-vertical.png" height="60">
                 </div>
-                <div class="col-8" >
+                <div class="col-8">
                     <div class="row">
                         <div class="col-2 text-center" style="margin-top:24px; margin-bottom: 24px;">
                             <span style="font-size: large;"><strong>HOME</strong></span>
