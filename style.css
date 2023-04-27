@@ -21,7 +21,7 @@ body{
             "Segoe UI Emoji",
             "Segoe UI Symbol",
             "Noto Color Emoji";
-        font-size: 1.1em;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
     --bs-navbar-nav-link-padding-x: 1.5em;
 }
 
+.dropdown-menu{
+    border: 0;
+    background-color: rgb(245, 224, 101);
+}
+
 .header {
     background-color: rgb(245, 224, 101);     
     height: 45px;
@@ -55,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: flex-start;
     align-items: start;
+    font-size: .8em;
 }
 
 .language {
@@ -64,8 +70,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .imgLanguage, .imgEmail, .imgWhatsapp{
-    height: 30px;
+    height: 25px;
     padding: 5px;
+}
+
+.email,
+.whatsapp {
+    padding-top: 3px;
 }
 
 h2 {

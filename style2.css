@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    font-family: "Montserrat", "system-ui",
+            "-apple-system",
+            "Segoe UI",
+            "Roboto",
+            "Helvetica Neue",
+            "Noto Sans",
+            "Liberation Sans",
+            "Arial",
+            "sans-serif",
+            "Apple Color Emoji",
+            "Segoe UI Emoji",
+            "Segoe UI Symbol",
+            "Noto Color Emoji";
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto""Helvetica Neue",
+        "Noto Sans",
+        "Liberation Sans",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+ 
+
+.navbar {
+    --bs-navbar-nav-link-padding-x: 1.5em;
+}
+
+.dropdown-menu{
+    border: 0;
+}
+
+.header {
+    background-color: rgb(245, 224, 101);     
+    height: 45px;
+    padding-top: 10px;    
+}
+
+.menu{
+    padding: 15px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: .8em;
+}
+
+.language {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.imgLanguage, .imgEmail, .imgWhatsapp{
+    height: 25px;
+    padding: 5px;
+}
+
+.email,
+.whatsapp {
+    padding-top: 3px;
+}
+
+h2 {
+    font-size: 2rem;    
+    padding: 40px;
+}
+
+
+.product-box {
+    padding: 30px;
+}
+
+.product-item {
+    height: 300px;
+}
+
+
+/* .product-item {
+    width: 280px;
+    height: 250px;
+    border: 1px solid grey;
+    margin: 10px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    
+} */
+
+
+.product-item-img {
+    width: 80px;
+}
+
+.teste {
+    margin: 80px;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    padding: 40px;
+}
+
+.teste2 {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: rgb(245, 224, 101);
+    height: 300px;
+}
+
+.teste3 {
+    height: 100px;
+}
+
+.footerCopyright {
+    background-color: black;
+    height: 45px;
+}
+
+.copyright {
+    color: white;    
+
+}
