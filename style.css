@@ -41,9 +41,17 @@ h1, h2, h3, h4, h5, h6 {
     --bs-navbar-nav-link-padding-x: 1.5em;
 }
 
+.navbar-button {
+    background-color: rgb(245, 224, 101);
+}
+
 .dropdown-menu{
     border: 0;
     background-color: rgb(245, 224, 101);
+}
+
+.navbar-toggler {
+    border: 0px;
 }
 
 .header {
@@ -51,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 45px;
     padding-top: 10px;    
 }
+
 .menu{
     padding: 15px 0;
 }
@@ -84,10 +93,16 @@ h2 {
     padding: 40px;
 }
 
-
+/* 
 .product-box {
     padding: 30px;
 }
+ */
+
+ .product-title {
+     margin: 20px;
+ }
+
 
 .product-item {
     height: 300px;
