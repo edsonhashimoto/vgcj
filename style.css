@@ -120,6 +120,10 @@ h2 {
     
 } */
 
+.banner{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .product-item-img {
     width: 80px;
