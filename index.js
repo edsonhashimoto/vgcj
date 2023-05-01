@@ -1,6 +1,9 @@
 $(document).ready(function(){
-    $('#flagUsa').click(
+
+    $('#flagUsa').on("click",
         function(){
+            localStorage.setItem('lang','us');
+
             $('#mHome').text('HOME');
             $('#mAbout').text('ABOUT');
             $('#mProducts').text('PRODUCTS');
@@ -28,8 +31,10 @@ $(document).ready(function(){
             
         }
     );
-    $('#flagBrazil').click(
+    $('#flagBrazil').on("click",
         function(){
+            localStorage.setItem('lang','br');
+
             $('#mHome').text('INÍCIO');
             $('#mAbout').text('SOBRE');
             $('#mProducts').text('PRODUTOS');
@@ -57,8 +62,10 @@ $(document).ready(function(){
         }
     );
 
-     $('#flagTaiwan').click(
+     $('#flagTaiwan').on("click",
         function(){
+            localStorage.setItem('lang','tw');
+
             $('#mHome').text('開始');
             $('#mAbout').text('後');
             $('#mProducts').text('貨物');
@@ -85,6 +92,17 @@ $(document).ready(function(){
             $('#tWelcomeText').text('VGCJ的重點是存儲電源規劃以及與能源專家合作, 以降低成本，節約能源和減少碳排放。除了我們在蓄電池設備方面的豐富經驗外，我們還為鋰離子和鉛酸電池製造商提供優質高效的機械設備和原材料，可以減少工作力並提高生產能力。我們期待成為商業夥伴！');
         }
     );
+
+    if(!localStorage.getItem('lang') || localStorage.getItem('lang') == 'us'){
+        $("#flagUsa").trigger('click');
+    }
+    else if(localStorage.getItem('lang') == 'br'){
+        $("#flagBrazil").trigger('click');
+    }
+    else if(localStorage.getItem('lang') == 'tw'){
+        $("#flagTaiwan").trigger('click');
+    }
+
 
 
 });
