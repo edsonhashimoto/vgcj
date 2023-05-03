@@ -148,6 +148,18 @@ a:active {
     margin: 30px 0 30px 0;
 }
 
+.product-title {
+    padding: 40px;
+    background-color: #f5df66;
+}
+
+/* f5df66 */
+
+.tGeneralFeatures, .tMachineDetails{
+    color: #2114A8;
+}
+
+
 .about-container{
     padding: 60px 0 150px 0;
 }
