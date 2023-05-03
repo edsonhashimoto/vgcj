@@ -147,19 +147,23 @@ a:active {
 
 @media (min-width: 768px) {.service-card-item {
         min-height: 500px;
-    }}
+    }
+}
 
 @media (min-width: 992px) {.service-card-item {
         min-height: 400px;
-    }}
+    }
+}
 
 @media (min-width: 1200px) {.service-card-item {
         min-height: 350px;
-    }}
+    }
+}
 
 @media (min-width: 1400px) {.service-card-item {
         min-height: 300px;
-    }}
+    }
+}
 
 
 .product-name{
