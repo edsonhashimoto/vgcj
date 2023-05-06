@@ -100,7 +100,7 @@ a:active {
     display: flex;
     justify-content: flex-start;
     align-items: start;
-    font-size: .8em;
+    font-size: .7em;
 }
 
 .language {
@@ -110,7 +110,7 @@ a:active {
 }
 
 .imgLanguage, .imgEmail, .imgWhatsapp{
-    height: 25px;
+    height: 24px;
     padding: 5px;
 }
 
