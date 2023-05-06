@@ -1,38 +1,25 @@
 $(document).ready(
 
-    async function () {
-
-        var response = await fetch('header.html');
-        var dados = await response.text();
-        var div = document.getElementById("header");
-        div.innerHTML = dados;
-
-        var response = await fetch('footer.html');
-        var dados = await response.text();
-        var div = document.getElementById("footer");
-        div.innerHTML = dados;
-
-    },
-
-
     function () {
+        debugger;
         $('#flagUsa').on("click",
             function () {
+                debugger;
                 localStorage.setItem('lang', 'us');
-
+                /*
                 $('#mHome').text('HOME');
                 $('#mAbout').text('ABOUT');
                 $('#mProducts').text('PRODUCTS');
                 $('#mServices').text('SERVICES');
                 $('#mContact').text('CONTACT');
-
-                $('#mProductLine').text('Product Line');
+                */
+                /* $('#mProductLine').text('Product Line');
                 $('#mAssemblyLine').text('Assembly Line');
                 $('#mPlateMaking').text('Plate Making');
                 $('#mFinishLine').text('Finishing Line');
                 $('#mCompleteProject').text('Complete Project');
                 $('#mUniqueEquipment').text('Unique Equipment');
-                $('#mMaterialSupply').text('Material Supply');
+                $('#mMaterialSupply').text('Material Supply'); */
 
                 $('#tProductLine').text('PRODUCT LINE');
                 $('#tAssemblyLine').text('ASSEMBLY LINE');
@@ -49,21 +36,22 @@ $(document).ready(
         );
         $('#flagBrazil').on("click",
             function () {
+                debugger;
                 localStorage.setItem('lang', 'br');
 
-                $('#mHome').text('INÍCIO');
+                /* $('#mHome').text('INÍCIO');
                 $('#mAbout').text('SOBRE');
                 $('#mProducts').text('PRODUTOS');
                 $('#mServices').text('SERVIÇOS');
-                $('#mContact').text('CONTATO');
+                $('#mContact').text('CONTATO'); */
 
-                $('#mProductLine').text('Linha De Produtos');
+                /* $('#mProductLine').text('Linha De Produtos');
                 $('#mAssemblyLine').text('Linha De Montagem');
                 $('#mPlateMaking').text('Fabricação De Chapas');
                 $('#mFinishLine').text('Linha Final');
                 $('#mCompleteProject').text('Projeto Completo');
                 $('#mUniqueEquipment').text('Equipamento Exclusivo');
-                $('#mMaterialSupply').text('Fornecimento De Materiais');
+                $('#mMaterialSupply').text('Fornecimento De Materiais'); */
 
                 $('#tProductLine').text('LINHA DE PRODUTOS');
                 $('#tAssemblyLine').text('LINHA DE MONTAGEM');
@@ -80,21 +68,22 @@ $(document).ready(
 
         $('#flagTaiwan').on("click",
             function () {
+                debugger;
                 localStorage.setItem('lang', 'tw');
-
+                /* 
                 $('#mHome').text('開始');
                 $('#mAbout').text('後');
                 $('#mProducts').text('貨物');
                 $('#mServices').text('服務業');
                 $('#mContact').text('聯繫');
-
-                $('#mProductLine').text('產品線');
+                 */
+                /* $('#mProductLine').text('產品線');
                 $('#mAssemblyLine').text('裝配線');
                 $('#mPlateMaking').text('板材製造');
                 $('#mFinishLine').text('最後一行');
                 $('#mCompleteProject').text('完成專案');
                 $('#mUniqueEquipment').text('專用設備');
-                $('#mMaterialSupply').text('材料供應');
+                $('#mMaterialSupply').text('材料供應'); */
 
                 $('#tProductLine').text('產品線');
                 $('#tAssemblyLine').text('裝配線');

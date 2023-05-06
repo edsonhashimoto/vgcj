@@ -1,0 +1,44 @@
+{
+    "us": {
+        "mHome": "HOME",
+        "mAbout": "ABOUT",
+        "mProducts": "PRODUCTS",
+        "mServices": "SERVICES",
+        "mContact": "CONTACT",
+        "mProductLine": "ProductLine",
+        "mAssemblyLine": "AssemblyLine",
+        "mPlateMaking": "PlateMaking",
+        "mFinishLine": "FinishingLine",
+        "mCompleteProject": "CompleteProject",
+        "mUniqueEquipment": "UniqueEquipment",
+        "mMaterialSupply": "MaterialSupply"
+    },
+    "br": {
+        "mHome": "INÍCIO",
+        "mAbout": "SOBRE",
+        "mProducts": "PRODUTOS",
+        "mServices": "SERVIÇOS",
+        "mContact": "CONTATO",
+        "mProductLine": "Linha De Produtos",
+        "mAssemblyLine": "Linha De Montagem",
+        "mPlateMaking": "Fabricação De Chapas",
+        "mFinishLine": "Linha Final",
+        "mCompleteProject": "Projeto Completo",
+        "mUniqueEquipment": "Equipamento Exclusivo",
+        "mMaterialSupply": "Fornecimento De Materiais"
+    },
+    "tw": {
+        "mHome": "開始",
+        "mAbout": "後",
+        "mProducts": "貨物",
+        "mServices": "服務業",
+        "mContact": "聯繫",
+        "mProductLine": "產品線",
+        "mAssemblyLine": "裝配線",
+        "mPlateMaking": "板材製造",
+        "mFinishLine": "最後一行",
+        "mCompleteProject": "完成專案",
+        "mUniqueEquipment": "專用設備",
+        "mMaterialSupply": "材料供應"
+    }
+}
