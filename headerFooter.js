@@ -36,7 +36,6 @@ $(document).ready(
 
             var response = await fetch('/language.json');
             var dados = await response.json();
-            debugger
             var language;
             if (!localStorage.getItem('lang') || localStorage.getItem('lang') == 'us') {
                 language = dados.us;

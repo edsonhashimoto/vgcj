@@ -1,10 +1,8 @@
 $(document).ready(
 
     function () {
-        debugger;
         $('#flagUsa').on("click",
             function () {
-                debugger;
                 localStorage.setItem('lang', 'us');
                 /*
                 $('#mHome').text('HOME');
@@ -36,7 +34,6 @@ $(document).ready(
         );
         $('#flagBrazil').on("click",
             function () {
-                debugger;
                 localStorage.setItem('lang', 'br');
 
                 /* $('#mHome').text('INÍCIO');
@@ -68,7 +65,6 @@ $(document).ready(
 
         $('#flagTaiwan').on("click",
             function () {
-                debugger;
                 localStorage.setItem('lang', 'tw');
                 /* 
                 $('#mHome').text('開始');
