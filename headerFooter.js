@@ -11,30 +11,9 @@ $(document).ready(
         var div = document.getElementById("footer");
         div.innerHTML = dados;
 
-
-        $('#flagUsa').on("click",
-            function () {
-                localStorage.setItem('lang', 'us');
-                loadLanguage();
-            }
-        );
-        $('#flagBrazil').on("click",
-            function () {
-                localStorage.setItem('lang', 'br');
-                loadLanguage();
-            }
-        );
-
-        $('#flagTaiwan').on("click",
-            function () {
-                localStorage.setItem('lang', 'tw');
-                loadLanguage();
-            }
-        );
-
         async function loadLanguage() {
 
-            var response = await fetch('/language.json');
+            var response = await fetch('./language.json');
             var dados = await response.json();
             var language;
             if (!localStorage.getItem('lang') || localStorage.getItem('lang') == 'us') {
@@ -64,6 +43,27 @@ $(document).ready(
         }
 
         loadLanguage();
+
+
+        $('#flagUsa').on("click",
+            function () {
+                localStorage.setItem('lang', 'us');
+                loadLanguage();
+            }
+        );
+        $('#flagBrazil').on("click",
+            function () {
+                localStorage.setItem('lang', 'br');
+                loadLanguage();
+            }
+        );
+
+        $('#flagTaiwan').on("click",
+            function () {
+                localStorage.setItem('lang', 'tw');
+                loadLanguage();
+            }
+        );
     }
 
 
