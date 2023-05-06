@@ -1,19 +1,19 @@
 $(document).ready(
     async function () {
 
-        var response = await fetch('/header.html');
+        var response = await fetch('./header.html');
         var dados = await response.text();
         var div = document.getElementById("header");
         div.innerHTML = dados;
 
-        var response = await fetch('/footer.html');
+        var response = await fetch('./footer.html');
         var dados = await response.text();
         var div = document.getElementById("footer");
         div.innerHTML = dados;
 
         async function loadLanguage() {
 
-            var response = await fetch('/language.json');
+            var response = await fetch('./language.json');
             var dados = await response.json();
             var language;
             if (!localStorage.getItem('lang') || localStorage.getItem('lang') == 'us') {
