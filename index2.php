@@ -1,2 +1,3 @@
 <?PHP
-echo "AAAA";
+    echo "AAAA";
+?>
