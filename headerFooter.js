@@ -13,7 +13,7 @@ $(document).ready(
 
         async function loadLanguage() {
 
-            var response = await fetch('/vgcj/language.json');
+            var response = await fetch('language.json');
             var dados = await response.json();
             var language;
             if (!localStorage.getItem('lang') || localStorage.getItem('lang') == 'us') {
