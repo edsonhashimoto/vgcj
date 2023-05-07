@@ -1,4 +1,4 @@
-import { HeaderFotter } from "./headerFooter.js";
+/* import { HeaderFotter } from "./headerFooter.js";
 
 $(document).ready(
     function () {
@@ -16,4 +16,4 @@ $(document).ready(
         }
 
         HeaderFotter(funcaoExtraLocal);
-    });
+    }); */

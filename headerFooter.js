@@ -22,6 +22,7 @@ export async function HeaderFotter(funcaoExtra) {
         else if (localStorage.getItem('lang') == 'tw') {
             language = dados.tw;
         }
+
         localStorage.setItem('language', JSON.stringify(language));
 
         document.getElementById("mHome").innerHTML = language.Home.toUpperCase();;
@@ -36,6 +37,7 @@ export async function HeaderFotter(funcaoExtra) {
         document.getElementById("mCompleteProject").innerHTML = language.CompleteProject;
         document.getElementById("mUniqueEquipment").innerHTML = language.UniqueEquipment;
         document.getElementById("mMaterialSupply").innerHTML = language.MaterialSupply;
+
 
         funcaoExtra();
 
