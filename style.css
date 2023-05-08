@@ -77,6 +77,10 @@ a:active {
     background-color: #f5e065;
 }
 
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
 .dropdown-menu{
     border: 0;
     background-color: rgb(245, 224, 101);
