@@ -14,6 +14,8 @@ $(document).ready(
             document.getElementById("tMaterialSupply").innerHTML = language.MaterialSupply.toUpperCase();
             document.getElementById("tWelcome").innerHTML = language.Welcome;
             document.getElementById("tWelcomeText").innerHTML = language.WelcomeText;
+            document.getElementById("tAbout").innerHTML = language.About.toUpperCase();
+            document.getElementById("tAboutText").innerHTML = language.AboutText;
 
             document.getElementById("tServices").innerHTML = language.Services.toUpperCase();
             document.getElementById("tNetworking").innerHTML = language.Networking;
