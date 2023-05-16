@@ -101,17 +101,17 @@ a:active {
 }
 
 .contact {
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: start;
+    align-items: start; */
     font-size: .7em;
 }
 
-.language {
+/* .language {
     display: flex;
     justify-content: flex-end;
     align-items: end;
-}
+} */
 
 .imgLanguage, .imgEmail, .imgWhatsapp{
     height: 24px;
