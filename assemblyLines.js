@@ -59,7 +59,33 @@ $(document).ready(
             document.getElementById("tAutomaticTerminalWeldingMachineGF").innerHTML = language.ProductObject.AutomaticTerminalWeldingMachineGF;
             document.getElementById("tAutomaticTerminalWeldingMachineMD").innerHTML = language.ProductObject.AutomaticTerminalWeldingMachineMD;
 
+            document.getElementById("tSt100").innerHTML = language.ProductObject.tSt100;
+            document.getElementById("tSt100Serie").innerHTML = language.ProductObject.tSt100Serie;
+            document.getElementById("tSt100Detail").innerHTML = language.ProductObject.tSt100Detail;
 
+            document.getElementById("tCos300").innerHTML = language.ProductObject.tCos300;
+            document.getElementById("tCos300Serie").innerHTML = language.ProductObject.tCos300Serie;
+            document.getElementById("tCos300Detail").innerHTML = language.ProductObject.tCos300Detail;
+
+            document.getElementById("tIcw300").innerHTML = language.ProductObject.tIcw300;
+            document.getElementById("tIcw300Serie").innerHTML = language.ProductObject.tIcw300Serie;
+            document.getElementById("tIcw300Detail").innerHTML = language.ProductObject.tIcw300Detail;
+
+            document.getElementById("tTws300").innerHTML = language.ProductObject.tTws300;
+            document.getElementById("tTws300Serie").innerHTML = language.ProductObject.tTws300Serie;
+            document.getElementById("tTws300Detail").innerHTML = language.ProductObject.tTws300Detail;
+
+            document.getElementById("tGir06").innerHTML = language.ProductObject.tGir06;
+            document.getElementById("tGir06Serie").innerHTML = language.ProductObject.tGir06Serie;
+            document.getElementById("tGir06Detail").innerHTML = language.ProductObject.tGir06Detail;
+
+            document.getElementById("tAld300").innerHTML = language.ProductObject.tAld300;
+            document.getElementById("tAld300Serie").innerHTML = language.ProductObject.tAld300Serie;
+            document.getElementById("tAld300Detail").innerHTML = language.ProductObject.tAld300Detail;
+
+            document.getElementById("tFully").innerHTML = language.ProductObject.tFully;
+            document.getElementById("tFullySerie").innerHTML = language.ProductObject.tFullySerie;
+            document.getElementById("tFullyDetail").innerHTML = language.ProductObject.tFullyDetail;
 
         }
 
