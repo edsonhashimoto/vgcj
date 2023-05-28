@@ -68,7 +68,6 @@ a:active {
     text-decoration: none;
 }
 
-
 .navbar {
     --bs-navbar-nav-link-padding-x: 1.5em;
 }
@@ -147,15 +146,20 @@ a:active {
     height: 300px;        
 }
 
+
+
 .welcome-container{
-    background-color: #f5e066b7;     
+    background-color: rgba(245, 224, 101, 0.5);
+    /* background-color: rgba(240, 240, 150, 0.8); */
     padding: 60px 0 60px 0;
 }
 
 .about-container{
-    padding-top: 30px;
-    /* background-color: rgb(245, 245, 245);  */
-}
+    padding: 50px 0 50px 0;
+    background-image: url('./img/fundoPretoBranco.jpg');
+    background-color: rgba(255, 255, 255, 0.93);
+    background-blend-mode: lighten;
+    background-position: center;}
     
 #tAboutText{
     font-size: 1.3em;
@@ -163,17 +167,12 @@ a:active {
 }
 
 .service-container {
-    padding-top: 30px;
-    
-    background-image: url('./img/fundoPretoBranco.jpg');
-    background-color: rgba(255, 255, 255, 0.9);
-    background-blend-mode: lighten;
-    background-position: center;
+    padding-top: 30px;    
 }
 
 
 .service-card-item{
-    background-color: white;
+    background-color: rgb(252, 252, 252);
     padding: 30px;
 } 
 
@@ -239,8 +238,11 @@ a:active {
 
 
 .footer {
-    background-color: rgb(245, 224, 101);
-    height: 300px;
+    /* background-color: rgb(245, 224, 101); */
+    /* background-color: rgba(240, 240, 150, 0.8); */
+    background-color: rgb(245, 245, 245); 
+    height: 250px;
+    padding: 40px;
 }
 
 .imgGao {
