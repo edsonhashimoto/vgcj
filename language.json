@@ -23,6 +23,9 @@
         "TechnicalSupport": "Technical support",
         "TechnicalSupportService": "VGCJ has a professional senior consultancy team to assist our loyal customers. We are always right here for our customers whenever they may need any information or help.We save our customers search time and reduce the risk when trying new projects.",
         "ProductObject": {
+            "GeneralFeatures": "General Features",
+            "MachineDetails": "Machine Details",
+
             "AgmStackers": "AGM Stackers",
             "St100": "ST-100 U High Capacity Accumulation Machine <br />ST series (ST-100 / STS-100 / STL-100) ",
             "St100Detail": "<ul><li>Plate Feeding System </li><li>AGM Automation Cutting Module</li><li>Automation Group Stacking System /Alignment & Rejection</li><li>Parameter Easily Setup</li><li>Rejection Cell Reloading System</li></ul>",
@@ -37,16 +40,59 @@
 
             "ShortCircuitTesters":"Short Circuit Testers",
             "HolePunchingMachines":"Hole Punching Machines",
+
             "IntercellWeldingMachines":"Intercell Welding Machines",
+            "AutomaticWeldingMachine": "Automatic Welding Machine",
+            "AutomaticWeldingMachineGF": "<ul> <li>Applicable battery size : L 113-175, W 70-87, H 85-155 (in mm)</li> <li>Cycle time : 6 batteries/min.</li> <li>Multifunctional machine.</li> <li>Patented intelligent welding technology, greatly improving welding quality andoperation</li> <li>stability.</li> <li>According to customer's production capacity needs, it can be matched with suitable</li> <li>workstations.</li> <li>Other functional stations can be selected for matching, such as : Short circuit test,</li> <li>Polarity test, Shear test and</li> <li>Internal resistance test.</li> <li>Graphical machine interface, easy to understand</li> <li>Equipped with cooling water equipment and temperature detection system, which cancontrol</li> <li>the temp. state of welding</li> </ul>",
+            "AutomaticWeldingMachineMD": "<ul> <li>Approx. size and weight : W 4300 x D 1300 x H2000 (in mm), 2500kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE, Controller : MIYACHI</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+            "AutomaticMultifunctionalWeldingMachine": "Automatic Multifunctional Welding Machine",
+            "AutomaticMultifunctionalWeldingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~5 batteries/min.</li> <li>Patented intelligent welding technology, greatly improving welding quality and operation stability.</li> <li>Other functional stations can be selected for matching, such as : Short circuit test, Polarity test, Shear test and</li> <li>Internal resistance test.</li> <li>Graphical machine interface, easy to understand</li> <li>Equipped with cooling water equipment and temp. detection system, which can control the temp state of welding.</li> </ul>",
+            "AutomaticMultifunctionalWeldingMachineMD": "<ul> <li>Approx. size and weight : W 3650 x D 2000x H 2250 (in mm), 2200kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE, Controller : MIYACHI</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+            "Icw300": "ICW-300 Automatic Wall Penetration Welding Machine <br /> ICW series ",
+            "Icw300Detail": "<ul> <li>Welding Distance and Pressure can be adjusting</li> <li>Individual ICW Position Setting</li> <li>Module Control by Servo Motor</li> <li>Brand New Chip Design</li> <li>Control Panel</li> <li>Data Acquisition</li> </ul>",
+
             "ShearTesters":"Shear Testers",
+            "AutomaticShearTestingMachine": "Automatic Shear Testing Machine",
+            "AutomaticShearTestingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~4 batteries/min.</li> <li>The quality of battery welding strength is checked by shear test.</li> <li>Microcomputer numerical control output shear force accurately</li> <li>Graphical machine interface, easy to understand</li> </ul>",
+            "AutomaticShearTestingMachineMD": "<ul> <li>Approx. size and weight : W 2000 x D 1450x H 2300 (in mm), 820kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+
             "PolarityTesters":"Polarity Testers",
+            "AutomaticPolarityTestingMachine": "Automatic Polarity Testing",
+            "AutomaticPolarityTestingMachineGF": "<ul> <li>Applicable battery size : L 113-175, W 70-87, H 85-155 (in mm)</li> <li>Cycle time : 6~8 batteries/min.</li> <li>For test polarity of the green plates battery.</li> <li>Easy to know which cell is incorrect and displayed on the touch panel</li> </ul>",
+            "AutomaticPolarityTestingMachineMD": "<ul> <li>Approx. size and weight : W 800 x D 650 x H 1770 (in mm), 200kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+
             "WeldTesters":"Weld Testers",
             "GlueInserting":"Glue Inserting",
+            
             "CoverPlacingMachines":"Cover Placing Machines",
+            "AutomaticCoverPlacingMachine": "Automatic Cover Placing Machine",
+            "AutomaticCoverPlacingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~5 batteries/min.</li> <li>Automatically correct the position of lead terminal and place the cover on the batteryaccurately.</li> <li>Battery cover auto feeding area, can store about 100 pieces covers.</li> <li>Graphical machine interface, easy to understand</li> </ul>",
+            "AutomaticCoverPlacingMachineMD": "<ul> <li>Approx. size and weight : W 2200 x D 2130x H 2450 (in mm), 750kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+
             "HeatSealingMachines":"Heat Sealing Machines",
+            "AutomaticServoHeatSealingMachine": "Automatic Servo Heat Sealing Machine",
+            "AutomaticServoHeatSealingMachineGF": "<ul> <li>Applicable battery size : L 113-175, W 70-87, H 85-155 (in mm)</li> <li>Cycle time : 6 batteries/min.</li> <li>Linear motion guide rail design, precise and smooth movement of mold and heating plate. </li> <li>Heating tube abnormality detection</li> <li>Patented new mold design for quick mold change.</li> <li>Graphical machine interface, easy to understand</li> <li>Pre-heating function and auto changeover system (option)</li> </ul>",
+            "AutomaticServoHeatSealingMachineMD": "<ul> <li>Approx. size and weight : W 1320 x D 1660 x H 2050 (in mm), 950kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+            "AutomaticBatteryHeatSealingMachine": "Automatic Battery Heat Sealing Machine",
+            "AutomaticBatteryHeatSealingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~5 batteries/min.</li> <li>Two systems are available : Servo type / Pneumatic type (user option)</li> <li>Linear motion guide rail design, precise and smooth movement of mold and heating plate.</li> <li>Heating tube abnormality detection</li> <li>Patented new mold design for quick mold change.</li> <li>Graphical machine interface, easy to understand</li> <li>Pre-heating function and auto changeover system (option)</li> </ul>",
+            "AutomaticBatteryHeatSealingMachineMD": "<ul> <li>Approx. size and weight : W 1600 x D 1720x H 2100 (in mm), 900kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+
             "PostBurning":"Post Burning",
             "TIGWelding":"TIG Welding",
+            "AutomaticTIGWeldingMachine": "Automatic TIG Welding Machine",
+            "AutomaticTIGWeldingMachineGF": "<ul> <li>Applicable battery size : L 113-175, W 70-87, H 85-155 (in mm)</li> <li>Cycle time : 7~8 batteries/min.</li> <li>Gas use : Argon</li> <li>Linear slide structure, move the workstation quickly and accurately.</li> <li>All machine parameters can be memorized, quick change to different models.</li> <li>New TIG mold design, more comprehensive safety.</li> </ul>",
+            "AutomaticTIGWeldingMachineMD": "<ul> <li>Approx. size and weight : W 1350 x D 1300 x H 2000 (in mm), 300kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+            "Tws300": "TWS-300 Automatic Terminal Welding Machine <br />TWS series",
+            "Tws300Detail": "<ul> <li>Applicable for Multiple Types</li> <li>Multiple Terminals Arrangement</li> <li>Module Control by Servo Motor</li> </ul>",
+            "AutomaticTerminalWeldingMachine": "Automatic Terminal Welding Machine",
+            "AutomaticTerminalWeldingMachineGF": "<ul> <li>Applicable battery size : L 180-410, W 120-250, H 150-220 (in mm)</li> <li>Cycle time : 3~5 batteries/min.</li> <li>Two systems are available : Servo type / Pneumatic type (user option)</li> <li>The burners using a mixture of fuel gas (or LPG) and oxygen.</li> <li>With gas (or LPG) explosion-proof safety device.</li> <li>Graphic machine interface, easy to understand</li> <li>Cooler system controls the mold temperature.</li> <li>Terminal height checking workstation with reject conveyor (option)</li> <li>Terminal brushing clean workstation (option)</li> </ul>",
+            "AutomaticTerminalWeldingMachineMD": "<ul> <li>Approx. size and weight : W 1600 x D 1420x H 2100 (in mm), 350kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+
             "LeakTestingMachines":"Leak Testing Machines",
+            "AutomaticAirLeakTestingMachine": "Automatic Air Leak Testing Machine",
+            "AutomaticAirLeakTestingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~4 batteries/min.</li> <li>Using FUKUDA testing unit or IU numerical testing unit (user option)</li> <li>Graphic machine interface, easy to understand</li> <li>Two systems are available : Servo type / Pneumatic type (user option)</li> <li>Other functional stations can be selected, such as : Laser engraving, Pneumaticengraving, electric engraving.</li> </ul>",
+            "AutomaticAirLeakTestingMachineMD": "<ul> <li>Approx. size and weight : W 1520 x D 1400x H 2100 (in mm), 250kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
+
             "Engravers":"Engravers"
         }
     },
@@ -74,6 +120,9 @@
         "TechnicalSupport": "Suporte técnico",
         "TechnicalSupportService": "A VGCJ possui uma equipe profissional de consultoria sênior para atender nossos clientes fiéis. Estamos sempre aqui para atender nossos clientes sempre que eles precisarem de qualquer informação ou ajuda. Economizamos o tempo de pesquisa de nossos clientes e reduzimos o risco ao experimentar novos projetos.",
         "ProductObject": {
+            "GeneralFeatures": "Características Gerais",
+            "MachineDetails": "Detalhes da máquina",
+
             "AgmStackers": "Formação de Grupos AGM",
             "St100": "ST-100 U Máquina de Acumulação de Alta Capacidade<br />Série ST (ST-100 / STS-100 / STL-100)",
             "St100Detail": "<ul><li>Sistema de alimentação de placas </li><li>Módulo de corte de automação AGM</li><li>Sistema de empilhamento de grupo de automação/alinhamento e rejeição</li><li>Configuração fácil de parâmetros </li><li>Sistema de recarga de células de rejeição</li></ul>",
@@ -86,19 +135,61 @@
             "Gir06": "GIR-06 Automatic Pole Group Robotic Arm Insertion System <br /> GIR series",
             "Gir06Detail": "<ul> <li>Aplicável para vários tipos</li> <li>Conexão de substituição de grupo para todas as distâncias fixas da máquina de empilhamento</li> <li>Aplicável para placas de fundição/extensão/perfuração</li > </ul>",
 
-
             "ShortCircuitTesters":"Testadoras de Custo Circuito",
             "HolePunchingMachines":"Máquinas de furar entre vasos",
+
             "IntercellWeldingMachines":"Extrusoras",
+            "AutomaticWeldingMachine": "Máquina de Solda Automática",
+            "AutomaticWeldingMachineGF": "<ul> <li>Tamanho da bateria aplicável: : L 113-175, W 70-87, H 85-155 (in mm)</li> <li>Tempo de ciclo: 6 baterias/min.</li> <li>Máquina multifuncional.</li> <li>Tecnologia de soldagem inteligente patenteada, melhorando consideravelmente a qualidade e operação da soldagem</li> <li>estabilidade.</li> <li>De acordo com as necessidades de capacidade de produção do cliente, pode ser combinado com adequado</li> <li>estações de trabalho.</li> <li>Outras estações funcionais podem ser selecionadas para correspondência, como: teste de curto-circuito,</li> <li>Teste de polaridade, teste de cisalhamento e</li> <li>Teste de resistência interna.</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Equipado com equipamento de resfriamento de água e sistema de detecção de temperatura, que pode controlar</li> <li>a temperatura. estado de soldagem</li> </ul>",
+            "AutomaticWeldingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 4300 x D 1300 x H2000 (em mm), 2500kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE, Controlador: MIYACHI</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+            "AutomaticMultifunctionalWeldingMachine": "Máquina de solda automática multifuncional",
+            "AutomaticMultifunctionalWeldingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-525, W 120-285, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~5 baterias/min.</li> <li>Tecnologia de soldagem inteligente patenteada, melhorando consideravelmente a qualidade da soldagem e a estabilidade da operação.</li> <li>Outras estações funcionais podem ser selecionadas para correspondência, como: teste de curto-circuito, teste de polaridade, teste de cisalhamento e</li> <li>Teste de resistência interna.</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Equipado com equipamentos de refrigeração de água e temp. sistema de detecção, que pode controlar o estado de temperatura da soldagem.</li> </ul>",
+            "AutomaticMultifunctionalWeldingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 3650 x D 2000 x H 2250 (em mm), 2200kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE, Controlador: MIYACHI</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+            "Icw300": "Máquina de Soldadura de Penetração de Parede Automática ICW-300 <br /> Série ICW",
+            "Icw300Detail": "<ul> <li>A distância e a pressão de soldagem podem ser ajustadas</li> <li>Configuração de posição ICW individual</li> <li>Controle do módulo por servo motor</li> <li>Novo produto Design de Chip</li> <li>Painel de Controle</li> <li>Aquisição de Dados</li> </ul>",
+
             "ShearTesters":"Testadoras de Torque",
+            "AutomaticShearTestingMachine": "Máquina Automática de Teste de Cisalhamento",
+            "AutomaticShearTestingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-525, W 120-285, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~4 baterias/min.</li> <li>A qualidade da resistência da solda da bateria é verificada pelo teste de cisalhamento.</li> <li>Força de cisalhamento de saída de controle numérico de microcomputador com precisão</li> <li>Interface gráfica da máquina, fácil de entender</li> </ul>",
+            "AutomaticShearTestingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 2000 x D 1450 x H 2300 (em mm), 820kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+
             "PolarityTesters":"Testadoras de Polaridade",
+            "AutomaticPolarityTestingMachine": "Teste Automático de Polaridade",
+            "AutomaticPolarityTestingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 113-175, W 70-87, H 85-155 (em mm)</li> <li>Tempo de ciclo: 6~8 baterias/min.</li> <li>Para testar a polaridade da bateria de placas verdes.</li> <li>Fácil de saber qual célula está incorreta e exibida no painel de toque</li> </ul>",
+            "AutomaticPolarityTestingMachineMD": "<ul> <li>Aprox. tamanho e peso: L 800 x P 650 x A 1770 (em mm), 200kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+
             "WeldTesters":"Testadoras de Solda",
             "GlueInserting":"Aplicadoras de Cola",
+
             "CoverPlacingMachines":"Colocadoras de Tampas",
+            "AutomaticCoverPlacingMachine": "Máquina Automática de Colocação de Cobertura",
+            "AutomaticCoverPlacingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-525, W 120-285, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~5 baterias/min.</li> <li>Corrija automaticamente a posição do terminal de chumbo e coloque a tampa na bateria com precisão.</li> <li>Área de alimentação automática da tampa da bateria, pode armazenar cerca de 100 peças de tampas.</li> <li>Interface gráfica da máquina, fácil de entender</li> </ul>",
+            "AutomaticCoverPlacingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 2200 x D 2130 x H 2450 (em mm), 750kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+
             "HeatSealingMachines":"Seladoras",
+            "AutomaticServoHeatSealingMachine": "Máquina servo automática de selagem térmica",
+            "AutomaticServoHeatSealingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 113-175, W 70-87, H 85-155 (em mm)</li> <li>Tempo de ciclo: 6 baterias/min.</li> <li>Design de trilho de guia de movimento linear, movimento preciso e suave do molde e da placa de aquecimento. </li> <li>Detecção de anormalidade do tubo de aquecimento</li> <li>Novo design de molde patenteado para troca rápida de molde.</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Função de pré-aquecimento e sistema de troca automática (opcional)</li> </ul>",
+            "AutomaticServoHeatSealingMachineMD": "<ul><li>Aprox. tamanho e peso: W 1320 x D 1660 x H 2050 (em mm), 950kg</li>  <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li>  <li>Ar comprimido: 5~6kg/cm2</li>  </ul>",
+            "AutomaticBatteryHeatSealingMachine": "Máquina Automática de Selagem Térmica de Bateria",
+            "AutomaticBatteryHeatSealingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-525, W 120-285, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~5 baterias/min.</li> <li>Dois sistemas estão disponíveis: tipo servo / tipo pneumático (opção do usuário)</li> <li>Design de trilho de guia de movimento linear, movimento preciso e suave do molde e da placa de aquecimento.</li> <li>Detecção de anormalidade do tubo de aquecimento</li> <li>Novo design de molde patenteado para troca rápida de molde.</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Função de pré-aquecimento e sistema de troca automática (opcional)</li> </ul>",
+            "AutomaticBatteryHeatSealingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 1600 x D 1720 x H 2100 (em mm), 900kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+
             "PostBurning":"Soldadora de Pólos",
             "TIGWelding":"Soldadoras TIG",
+            "AutomaticTIGWeldingMachine": "Máquina automática de solda TIG",
+            "AutomaticTIGWeldingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 113-175, W 70-87, H 85-155 (em mm)</li> <li>Tempo de ciclo: 7~8 baterias/min.</li> <li>Uso de gás: argônio</li> <li>Estrutura deslizante linear, mova a estação de trabalho com rapidez e precisão.</li> <li>Todos os parâmetros da máquina podem ser memorizados, mudança rápida para diferentes modelos.</li> <li>Novo design de molde TIG, segurança mais abrangente.</li> </ul>",
+            "AutomaticTIGWeldingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 1350 x D 1300 x H 2000 (em mm), 300kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+            "Tws300": "TWS-300 Máquina de Solda Terminal Automática <br /> Série TWS",
+            "Tws300Detail": "<ul> <li>Aplicável a vários tipos</li> <li>Arranjo de vários terminais</li> <li>Controle de módulo por servo motor</li> </ul>",
+            "AutomaticTerminalWeldingMachine": "Máquina automática de solda terminal",
+            "AutomaticTerminalWeldingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-410, W 120-250, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~5 baterias/min.</li> <li>Dois sistemas estão disponíveis: tipo servo / tipo pneumático (opção do usuário)</li> <li>Os queimadores usam uma mistura de gás combustível (ou GLP) e oxigênio.</li> <li>Com dispositivo de segurança à prova de explosão de gás (ou GLP).</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Sistema de resfriamento controla a temperatura do molde.</li> <li>Estação de trabalho de verificação de altura do terminal com transportador de rejeição (opcional)</li> <li>Escova de terminal estação de trabalho limpa (opção)</li> </ul>",
+            "AutomaticTerminalWeldingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 1600 x D 1420 x H 2100 (em mm), 350kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+
             "LeakTestingMachines":"Testadoras de Vazamento",
+            "AutomaticAirLeakTestingMachine": "Máquina Automática de Teste de Vazamento de Ar",
+            "AutomaticAirLeakTestingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-525, W 120-285, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~4 baterias/min.</li> <li>Usando unidade de teste FUKUDA ou unidade de teste numérico IU (opção do usuário)</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Dois sistemas estão disponíveis: tipo servo / tipo pneumático (opção do usuário)</li> <li>Outras estações funcionais podem ser selecionadas, tais como: gravação a laser, gravação pneumática, gravação elétrica.</li> </ul>",
+            "AutomaticAirLeakTestingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 1520 x D 1400 x H 2100 (em mm), 250kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
+
             "Engravers":"Codificadoras"
         }
     },
@@ -126,6 +217,9 @@
         "TechnicalSupport": "技術支援",
         "TechnicalSupportService": "VGCJ擁有一支專業的高級顧問團隊來協助我們忠實的客戶。 每當客戶需要任何信息或幫助時，我們始終在這里為他們服務。 我們節省了客戶搜索時間並降低了嘗試新項目時的風險。",
         "ProductObject": {
+            "GeneralFeatures": "一般功能",
+            "MachineDetails": "機器詳細資訊",
+
             "AgmStackers": "AGM Stackers",
             "St100": "ST-100 U型高產能積重機 <br /> ST系列 (ST-100 / STS-100 / STL-100) ",
             "St100Detail": "<ul> <li>一正二負供料系統</li> <li>AGM自動剪裁系統</li> <li>極群自動堆疊整列系統</li> <li>單模組伺服馬達控制</li> <li>便利化參數設定</li> <li>不良極群排出後補料系統</li> </ul>",
@@ -138,19 +232,61 @@
             "Gir06": "GIR-06 全自動極群機械手臂置入系統 <br /> GIR系列",
             "Gir06Detail": "<ul> <li>適用於多種機型</li> <li>補料功能-銜接各種定距積重機</li> <li>適用於重力鑄造 / 延展 / 沖壓類型之極版</li></ul>",
 
-
             "ShortCircuitTesters":"Short Circuit Testers",
             "HolePunchingMachines":"Hole Punching Machines",
+
             "IntercellWeldingMachines":"Intercell Welding Machines",
+            "AutomaticWeldingMachine": "自動焊接機",
+            "AutomaticWeldingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：6 節電池/分鐘。</li> <li>多功能一體機.</li> <li>專利智能焊接技術，大幅提升焊接質量和操作</li> <li>穩定性。</li> <li>可根據客戶的產能需求，搭配合適的</li> <li>工作站。</li> <li>可選擇其他功能工位進行匹配，如：短路測試，</li> <li>極性測試、剪切測試和</li> <li>內阻測試.</li> <li>圖形化機器界面，簡單易懂</li> <li>配備冷卻水設備和溫度檢測系統，可控制</li> <li>溫度。 焊接狀態</li> </ul>",
+            "AutomaticWeldingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 4300 x D 1300 x H2000 (in mm), 2500kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE, Controller : MIYACHI</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+            "AutomaticMultifunctionalWeldingMachine": "自動多功能焊接機",
+            "AutomaticMultifunctionalWeldingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~5 節電池/分鐘。</li> <li>專利智能焊接技術，大大提高焊接質量和運行穩定性。</li> <li>可選擇其他功能工位進行匹配，如：短路測試、極性測試、剪切測試和</li> <li>內阻測試.</li> <li>圖形化機器界面，簡單易懂</li> <li>配備冷卻水設備和溫度。 檢測系統，可控制焊接溫度狀態。</li> </ul>",
+            "AutomaticMultifunctionalWeldingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 3650 x D 2000x H 2250 (in mm), 2200kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE, Controller : MIYACHI</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+            "Icw300": "ICW-300 全自動穿壁焊機 <br /> ICW系列 ",
+            "Icw300Detail": "<ul> <li>可控制焊接距離與壓力</li> <li>可獨立設定穿壁焊位</li> <li>單模組伺服馬達</li> <li>全新焊頭設計</li> <li>全彩控制面板</li> <li>數據蒐集</li></ul>",
+
             "ShearTesters":"Shear Testers",
+            "AutomaticShearTestingMachine": "全自動剪切試驗機",
+            "AutomaticShearTestingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~4節電池/分鐘。</li> <li>通過剪切試驗檢驗電池焊接強度的好壞。</li> <li>微電腦數控精確輸出剪切力</li> <li>圖形化機器界面，簡單易懂</li> </ul>",
+            "AutomaticShearTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 2000 x D 1450x H 2300 (in mm), 820kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+
             "PolarityTesters":"Polarity Testers",
+            "AutomaticPolarityTestingMachine": "自動極性測試",
+            "AutomaticPolarityTestingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：6~8 節電池/分鐘。</li> <li>用於測試綠板電池的極性。</li> <li>容易知道哪個單元格不正確並顯示在觸摸屏上</li> </ul>",
+            "AutomaticPolarityTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 800 x D 650 x H 1770 (mm), 200kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+
             "WeldTesters":"Weld Testers",
             "GlueInserting":"Glue Inserting",
+
             "CoverPlacingMachines":"Cover Placing Machines",
+            "AutomaticCoverPlacingMachine": "自動上蓋機",
+            "AutomaticCoverPlacingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~5 節電池/分鐘。</li> <li>自動校正引線端子位置，準確放置電池蓋。</li> <li>電池蓋自動送料區，可存放約100個電池蓋。</li> <li>圖形化機器界面，簡單易懂</li> </ul>",
+            "AutomaticCoverPlacingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 2200 x D 2130x H 2450 (in mm), 750kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+
             "HeatSealingMachines":"Heat Sealing Machines",
+            "AutomaticServoHeatSealingMachine": "全自動伺服熱封機",
+            "AutomaticServoHeatSealingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：6 節電池/分鐘。</li> <li>直線運動導軌設計，模具、加熱板運動精準順暢。 </li> <li>加熱管異常檢測</li> <li>獲得專利的新模具設計可快速更換模具。</li> <li>圖形化機器界面，簡單易懂</li> <li>預熱功能和自動轉換系統（選項）</li> </ul>",
+            "AutomaticServoHeatSealingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1320 x D 1660 x H 2050 (in mm), 950kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+            "AutomaticBatteryHeatSealingMachine": "全自動電池熱封機",
+            "AutomaticBatteryHeatSealingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~5 節電池/分鐘。</li> <li>兩種系統可供選擇：伺服式/氣動式（用戶選擇）</li> <li>直線運動導軌設計，模具、加熱板運動精準順暢。</li> <li>加熱管異常檢測</li> <li>獲得專利的新模具設計可快速更換模具。</li> <li>圖形化機器界面，簡單易懂</li> <li>預熱功能和自動轉換系統（選項）</li> </ul>",
+            "AutomaticBatteryHeatSealingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1600 x D 1720x H 2100 (in mm), 900kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+
             "PostBurning":"Post Burning",
             "TIGWelding":"TIG Welding",
+            "AutomaticTIGWeldingMachine": "自動TIG焊機",
+            "AutomaticTIGWeldingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：7~8 節電池/分鐘。</li> <li>氣體使用：氬氣</li> <li>直線滑軌結構，移動工位快速準確。</li> <li>所有機器參數可記憶，快速切換不同機型。</li> <li>全新TIG模具設計，安全性更全面。</li> </ul>",
+            "AutomaticTIGWeldingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1350 x D 1300 x H 2000 (in mm), 300kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+            "Tws300": "TWS-300 全自動端子熔接機 <br />TWS系列",
+            "Tws300Detail": "<ul> <li>適用於多種機型</li> <li>多端子排列</li> <li>單模組伺服馬達</li></ul>",
+            "AutomaticTerminalWeldingMachine": "自動端子焊接機",
+            "AutomaticTerminalWeldingMachineGF": "<ul> <li>適用電池尺寸：L 180-410, W 120-250, H 150-220 (in mm)</li> <li>循環時間：3~5 節電池/分鐘。</li> <li>兩種系統可供選擇：伺服式/氣動式（用戶選擇）</li> <li>燃燒器使用燃氣（或液化石油氣）和氧氣的混合物。</li> <li>帶有燃氣（或液化石油氣）防爆安全裝置。</li> <li>圖形機界面，通俗易懂</li> <li>冷卻系統控制模具溫度。</li> <li>帶剔除傳送帶的終端高度檢查工作站（可選）</li> <li>終端刷洗清潔工作站（可選）</li> </ul>",
+            "AutomaticTerminalWeldingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1600 x D 1420x H 2100 (in mm), 350kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+
             "LeakTestingMachines":"Leak Testing Machines",
+            "AutomaticAirLeakTestingMachine": "全自動氣密性測試機",
+            "AutomaticAirLeakTestingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~4節電池/分鐘。</li> <li>使用 FUKUDA 測試單元或 IU 數值測試單元（用戶選項）</li> <li>圖形機界面，通俗易懂</li> <li>兩種系統可供選擇：伺服式/氣動式（用戶選擇）</li> <li>可選擇其他功能工位，如：激光雕刻、氣動雕刻、電雕刻。</li> </ul>",
+            "AutomaticAirLeakTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1520 x D 1400x H 2100 (in mm), 250kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
+
             "Engravers":"Engravers"
         }
     }
