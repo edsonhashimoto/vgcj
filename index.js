@@ -8,9 +8,10 @@ $(document).ready(
             document.getElementById("tProductLine").innerHTML = language.ProductLine.toUpperCase();
             document.getElementById("tAssemblyLine").innerHTML = language.AssemblyLine.toUpperCase();
             document.getElementById("tPlateMaking").innerHTML = language.PlateMaking.toUpperCase();
-            document.getElementById("tFinishLine").innerHTML = language.FinishLine.toUpperCase();
-            document.getElementById("tCompleteProject").innerHTML = language.CompleteProject.toUpperCase();
+            document.getElementById("tFinishingLine").innerHTML = language.FinishingLine.toUpperCase();
+            document.getElementById("tCompleteProjects").innerHTML = language.CompleteProjects.toUpperCase();
             document.getElementById("tUniqueEquipment").innerHTML = language.UniqueEquipment.toUpperCase();
+            document.getElementById("tSpareParts").innerHTML = language.SpareParts.toUpperCase();
             document.getElementById("tMaterialSupply").innerHTML = language.MaterialSupply.toUpperCase();
             document.getElementById("tWelcome").innerHTML = language.Welcome;
             document.getElementById("tWelcomeText").innerHTML = language.WelcomeText;

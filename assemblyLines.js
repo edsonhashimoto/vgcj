@@ -1,3 +1,8 @@
+/*
+
+Est´no products.js
+
+*/
 import { HeaderFotter } from "./headerFooter.js";
 
 $(document).ready(
@@ -15,9 +20,11 @@ $(document).ready(
                 tMachineDetails[i].innerHTML = language.ProductObject.MachineDetails;
             }
 
+            document.getElementById("tAssemblyLine").innerHTML = language.AssemblyLine;
+
             document.getElementById("tAgmStackers").innerHTML = language.ProductObject.AgmStackers;
             document.getElementById("tSt100").innerHTML = language.ProductObject.St100;
-            document.getElementById("tSt100Detail").innerHTML = language.ProductObject.St100Detail;
+            document.getElementById("tSt100GF").innerHTML = language.ProductObject.St100GF;
             document.getElementById("figSt100").innerHTML = language.ProductObject.St100;
             document.getElementById("figSt100").setAttribute("alt", language.ProductObject.St100);
 
@@ -25,11 +32,11 @@ $(document).ready(
 
             document.getElementById("tCOSCastonStrap").innerHTML = language.ProductObject.COSCastonStrap;
             document.getElementById("tCos300").innerHTML = language.ProductObject.Cos300;
-            document.getElementById("tCos300Detail").innerHTML = language.ProductObject.Cos300Detail;
+            document.getElementById("tCos300GF").innerHTML = language.ProductObject.Cos300GF;
             document.getElementById("figCos300").innerHTML = language.ProductObject.Cos300;
             document.getElementById("figCos300").setAttribute("alt", language.ProductObject.Cos300);
             document.getElementById("tGir06").innerHTML = language.ProductObject.Gir06;
-            document.getElementById("tGir06Detail").innerHTML = language.ProductObject.Gir06Detail;
+            document.getElementById("tGir06GF").innerHTML = language.ProductObject.Gir06GF;
             document.getElementById("figGir06").innerHTML = language.ProductObject.Gir06;
             document.getElementById("figGir06").setAttribute("alt", language.ProductObject.Gir06);
 
@@ -48,7 +55,7 @@ $(document).ready(
             document.getElementById("figAutomaticMultifunctionalWeldingMachine").innerHTML = language.ProductObject.AutomaticMultifunctionalWeldingMachine;
             document.getElementById("figAutomaticMultifunctionalWeldingMachine").setAttribute("alt", language.ProductObject.AutomaticMultifunctionalWeldingMachine);
             document.getElementById("tIcw300").innerHTML = language.ProductObject.Icw300;
-            document.getElementById("tIcw300Detail").innerHTML = language.ProductObject.Icw300Detail;
+            document.getElementById("tIcw300GF").innerHTML = language.ProductObject.Icw300GF;
             document.getElementById("figIcw300").innerHTML = language.ProductObject.Icw300;
             document.getElementById("figIcw300").setAttribute("alt", language.ProductObject.Icw300);
 
@@ -96,7 +103,7 @@ $(document).ready(
             document.getElementById("figAutomaticTIGWeldingMachine").innerHTML = language.ProductObject.AutomaticTIGWeldingMachine;
             document.getElementById("figAutomaticTIGWeldingMachine").setAttribute("alt", language.ProductObject.AutomaticTIGWeldingMachine);
             document.getElementById("tTws300").innerHTML = language.ProductObject.Tws300;
-            document.getElementById("tTws300Detail").innerHTML = language.ProductObject.Tws300Detail;
+            document.getElementById("tTws300GF").innerHTML = language.ProductObject.Tws300GF;
             document.getElementById("figTws300").innerHTML = language.ProductObject.Tws300;
             document.getElementById("figTws300").setAttribute("alt", language.ProductObject.Tws300);
             document.getElementById("tAutomaticTerminalWeldingMachine").innerHTML = language.ProductObject.AutomaticTerminalWeldingMachine;

@@ -33,9 +33,10 @@ export async function HeaderFotter(funcaoExtra) {
 
         document.getElementById("mAssemblyLine").innerHTML = language.AssemblyLine;
         document.getElementById("mPlateMaking").innerHTML = language.PlateMaking;
-        document.getElementById("mFinishLine").innerHTML = language.FinishLine;
-        document.getElementById("mCompleteProject").innerHTML = language.CompleteProject;
+        document.getElementById("mFinishingLine").innerHTML = language.FinishingLine;
+        document.getElementById("mCompleteProjects").innerHTML = language.CompleteProjects;
         document.getElementById("mUniqueEquipment").innerHTML = language.UniqueEquipment;
+        document.getElementById("mSpareParts").innerHTML = language.SpareParts;
         document.getElementById("mMaterialSupply").innerHTML = language.MaterialSupply;
 
 

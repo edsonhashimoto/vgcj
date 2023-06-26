@@ -8,10 +8,11 @@
         "ProductLine": "Product Line",
         "AssemblyLine": "Assembly Line",
         "PlateMaking": "Plate Making",
-        "FinishLine": "Finishing Line",
-        "CompleteProject": "Complete Project",
+        "FinishingLine": "Finishing Line",
+        "CompleteProjects": "Complete Projects",
         "UniqueEquipment": "Unique Equipment",
-        "MaterialSupply": "Material Supply",
+        "SpareParts": "Spare Parts",
+        "MaterialSupply": "Materials",
         "AboutText": "Established in 2008, We are cooperating with top manufacturers in Asia, with over 10 years of experience. In battery manufacturing & battery equipment making, we provide battery factory design, battery product design and tooling, complete project solutions for battery whole-plant equipment, and battery production guidance  & consultancy.",
         "Welcome": "Welcome To VGCJ",
         "WelcomeText": "VGCJ's focus is on storage power planning and collaborating with energy experts with the goal to cut costs, save energy and reduce carbon emissions. In addition to our extensive experience in storage battery equipment we also provide superior and efficient mechanical equipment and raw materials for lithium-ion and lead acid battery manufacturers that can reduce labor and raise their production capacity. We look forward to being business partners!",
@@ -25,18 +26,57 @@
         "ProductObject": {
             "GeneralFeatures": "General Features",
             "MachineDetails": "Machine Details",
+ 
+        "_COMMENT_Plate Making": "",
+            "GridCasting": "Grid Casting",
+            "GridCastingMachine": "Grid Casting Machine",
+            "GridCastingMachineGF": "",
+            "SpineGridCaster": "Spine Grid Caster",
+            "SpineGridCasterGF": "",
+            "PunchingMachine": "Punching Machine",
+            "PunchingMachineGF": "",           
+            
 
+            "OxideMills": "Oxide Mills",
+            "BartonOxideMill": "Barton Oxide Mills",
+            "BartonOxideMillGF": "The Barton Oxide Mill has a different working principle with the Shimatzu Ball Mill. Oxide is produced in the Barton mill using a gas phase oxidation method, allowing for longer battery life. The Sanhuan SF-15 Barton Mill is characterized by energy saving, smaller footprint, higher bulk density and easy control. It is mainly used in the manufacture of traction batteries, stationary batteries and other deep cycle batteries. It is also used for making litharge and red lead.",
+            "LSSeriesAutomaticOxideMill": "LS Series Automatic Oxide Mill",
+            "LSSeriesAutomaticOxideMillGF": "LS Series Automatic Oxide Mill LS Series Oxide Mill has been improved on the basis of L series oxide mill. It has also incorporated advantages of S-type oxide mill. Characterized by compact structure, stable operation, advanced controls and high oxide quality with excellent physical and chemical properties. It is widely recognized by many battery manufacturers.<br /> The cylindrical mill features high productivity, stable operation and reliable performance. It constitutes the automatic cylindrical integrated manufacturing system when connected to the cylinder elevator and cylinder storage and feeding system. <br /> The advanced control system allows complete control from start-up, normal operation to shutdown. Real-time monitoring of all critical process parameters (temperature, air pressure, load, etc.) is performed through industrial man-machine interface and PLC. Charging rate, air intake and water spray are automatically adjusted. Performing a non-humanized automatic control. <br /> Round silo with ample capacity, occupying a small area allows first-in/first-out; Sealed structure and “breather” fittings in the silo can efficiently prevent the oxide discharge from burning. Optional load cell device makes production management more convenient. <br />Multiple measures have been taken to save energy. The lead cylinder silo equipped with the system makes the slag greatly reduced. Electric costs can be reduced by using varying electricity rates at different times. The investment will be returned in five years using the S-type oxide mill.",
+
+            "PasteMixers": "Paste Mixers",
+            "SHSeriesAutomaticMixer": "SH Series Automatic Mixer",
+            "SHSeriesAutomaticMixerGF": "SH Series Automatic Kneader is commonly recognized as one of the most advanced kneaders in the world because of its stable performance, also mixing efficiency and high operation, especially the kneader with the 1Ton batch capacity which has occupied 80% of Chinese market. <br />Control reliability is guaranteed by the use of PLC and touch screen monitoring system. Pre-setting of eight mixing recipe programs, dual-language operation menu (English and Chinese), fully automatic or manual operation. <br /> Automatic oxide/acid/water weighing and dumping. Safety and reliability of weighing and controls are ensured by using world famous brand of load cells and pneumatic ball valves.<br /> Interior panels of the mixing tube and all components that come into contact with the mass are made of acid-proof stainless steel. Scraper and stainless steel ensure long-term use without changing.<br />For good cooling process and dust treatment, the system can be equipped with optional corrosion-proof wet washer or crumbling washer.",
+
+            "PastingMachines": "Pasting Machines",
+            "DoubleSidePaster": "Double Side Paster",
+            "DoubleSidePasterGF": "",
+            
+            "FlashDryOvens": "Flash Dry Ovens",
+            "FlashDryOven": "Flash Dry Oven",
+            "FlashDryOvenGF": "",
+
+            "PlateCuttingMachines": "Plate Cutting Machines",
+            "PlateCuttingMachine": "Plate Cutting Machine",
+            "PlateCuttingMachineGF": "",
+            "PlateCutAndBrushMachine": "Plate Cut and Brush Machine",
+            "PlateCutAndBrushMachineGF": "",
+
+            "CuringDryingChambers": "Curing & Drying Chambers",
+            "CuringDryingChamber": "Curing & Drying Chamber",
+            "CuringDryingChamberGF": "The high temperature curing chamber SHX-HT is developed to suit the needs of high curing processes, it has the following characteristics:<br /> Performs true high temperature curing. The curing temperature and humidity can reach 90°C and 98%RH even if no steam is provided by the user. <br />Precise control for tetrabasic lead sulfate content ensures extended battery life.<br />The specially developed air recirculation unit, which is different from the conventional ones, allows intelligent control for the recirculation rate, faster curing and drying time and improved board consistency.",
+
+        "_COMMENT_AssemblyLines": "",            
             "AgmStackers": "AGM Stackers",
             "St100": "ST-100 U High Capacity Accumulation Machine <br />ST series (ST-100 / STS-100 / STL-100) ",
-            "St100Detail": "<ul><li>Plate Feeding System </li><li>AGM Automation Cutting Module</li><li>Automation Group Stacking System /Alignment & Rejection</li><li>Parameter Easily Setup</li><li>Rejection Cell Reloading System</li></ul>",
+            "St100GF": "<ul><li>Plate Feeding System </li><li>AGM Automation Cutting Module</li><li>Automation Group Stacking System /Alignment & Rejection</li><li>Parameter Easily Setup</li><li>Rejection Cell Reloading System</li></ul>",
 
             "Envelopers":"Envelopers",
 
             "COSCastonStrap":"COS-Cast on Strap",
             "Cos300": "COS-300 fully automatic high-capacity COS arm <br /> COS series (B / B Robot)",
-            "Cos300Detail": "<ul><li>6 Axis Robot Arm Mechanism</li><li>Automatic Oiling Mechanism</li><li>Mold Scrapping System</li><li>Lead Leveling Monitoring System</li><li>Lead Supply System</li></ul>",
+            "Cos300GF": "<ul><li>6 Axis Robot Arm Mechanism</li><li>Automatic Oiling Mechanism</li><li>Mold Scrapping System</li><li>Lead Leveling Monitoring System</li><li>Lead Supply System</li></ul>",
             "Gir06": "GIR-06 Automatic Pole Group Robotic Arm Insertion System <br /> GIR series",
-            "Gir06Detail": "<ul> <li>Applicable for Multiple Types</li> <li>Group Replacement Connecting for All Fixed Distance of Stacking Machine</li> <li>Applicable for Casting / Extender / Punch Plates</li> </ul>",
+            "Gir06GF": "<ul> <li>Applicable for Multiple Types</li> <li>Group Replacement Connecting for All Fixed Distance of Stacking Machine</li> <li>Applicable for Casting / Extender / Punch Plates</li> </ul>",
 
             "ShortCircuitTesters":"Short Circuit Testers",
             "HolePunchingMachines":"Hole Punching Machines",
@@ -49,7 +89,7 @@
             "AutomaticMultifunctionalWeldingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~5 batteries/min.</li> <li>Patented intelligent welding technology, greatly improving welding quality and operation stability.</li> <li>Other functional stations can be selected for matching, such as : Short circuit test, Polarity test, Shear test and</li> <li>Internal resistance test.</li> <li>Graphical machine interface, easy to understand</li> <li>Equipped with cooling water equipment and temp. detection system, which can control the temp state of welding.</li> </ul>",
             "AutomaticMultifunctionalWeldingMachineMD": "<ul> <li>Approx. size and weight : W 3650 x D 2000x H 2250 (in mm), 2200kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE, Controller : MIYACHI</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
             "Icw300": "ICW-300 Automatic Wall Penetration Welding Machine <br /> ICW series ",
-            "Icw300Detail": "<ul> <li>Welding Distance and Pressure can be adjusting</li> <li>Individual ICW Position Setting</li> <li>Module Control by Servo Motor</li> <li>Brand New Chip Design</li> <li>Control Panel</li> <li>Data Acquisition</li> </ul>",
+            "Icw300GF": "<ul> <li>Welding Distance and Pressure can be adjusting</li> <li>Individual ICW Position Setting</li> <li>Module Control by Servo Motor</li> <li>Brand New Chip Design</li> <li>Control Panel</li> <li>Data Acquisition</li> </ul>",
 
             "ShearTesters":"Shear Testers",
             "AutomaticShearTestingMachine": "Automatic Shear Testing Machine",
@@ -83,7 +123,7 @@
             "AutomaticTIGWeldingMachineGF": "<ul> <li>Applicable battery size : L 113-175, W 70-87, H 85-155 (in mm)</li> <li>Cycle time : 7~8 batteries/min.</li> <li>Gas use : Argon</li> <li>Linear slide structure, move the workstation quickly and accurately.</li> <li>All machine parameters can be memorized, quick change to different models.</li> <li>New TIG mold design, more comprehensive safety.</li> </ul>",
             "AutomaticTIGWeldingMachineMD": "<ul> <li>Approx. size and weight : W 1350 x D 1300 x H 2000 (in mm), 300kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
             "Tws300": "TWS-300 Automatic Terminal Welding Machine <br />TWS series",
-            "Tws300Detail": "<ul> <li>Applicable for Multiple Types</li> <li>Multiple Terminals Arrangement</li> <li>Module Control by Servo Motor</li> </ul>",
+            "Tws300GF": "<ul> <li>Applicable for Multiple Types</li> <li>Multiple Terminals Arrangement</li> <li>Module Control by Servo Motor</li> </ul>",
             "AutomaticTerminalWeldingMachine": "Automatic Terminal Welding Machine",
             "AutomaticTerminalWeldingMachineGF": "<ul> <li>Applicable battery size : L 180-410, W 120-250, H 150-220 (in mm)</li> <li>Cycle time : 3~5 batteries/min.</li> <li>Two systems are available : Servo type / Pneumatic type (user option)</li> <li>The burners using a mixture of fuel gas (or LPG) and oxygen.</li> <li>With gas (or LPG) explosion-proof safety device.</li> <li>Graphic machine interface, easy to understand</li> <li>Cooler system controls the mold temperature.</li> <li>Terminal height checking workstation with reject conveyor (option)</li> <li>Terminal brushing clean workstation (option)</li> </ul>",
             "AutomaticTerminalWeldingMachineMD": "<ul> <li>Approx. size and weight : W 1600 x D 1420x H 2100 (in mm), 350kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
@@ -93,7 +133,61 @@
             "AutomaticAirLeakTestingMachineGF": "<ul> <li>Applicable battery size : L 180-525, W 120-285, H 150-220 (in mm)</li> <li>Cycle time : 3~4 batteries/min.</li> <li>Using FUKUDA testing unit or IU numerical testing unit (user option)</li> <li>Graphic machine interface, easy to understand</li> <li>Two systems are available : Servo type / Pneumatic type (user option)</li> <li>Other functional stations can be selected, such as : Laser engraving, Pneumaticengraving, electric engraving.</li> </ul>",
             "AutomaticAirLeakTestingMachineMD": "<ul> <li>Approx. size and weight : W 1520 x D 1400x H 2100 (in mm), 250kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
 
-            "Engravers":"Engravers"
+            "Engravers":"Engravers",
+
+        "_COMMENT_Finishing_Lines": "",
+            "AcidFillingMachines": "Acid Filling Machines",
+            "WetFillingMachine": "Wet Filling Machine",
+            "WetFillingMachineGF": "",
+            "_2ndAcidFillingMachine": "2nd Acid Filling Machine",
+            "_2ndAcidFillingMachineGF": "",
+            "AcidFillingAndLevelingMachine": "Acid Filling And Leveling Machine",
+            "AcidFillingAndLevelingMachineGF": "",
+            "AcidFillingMachine": "Acid Filling Machine",
+            "AcidFillingMachineGF": "",
+
+            "DumpingMachines": "Dumping Machines",
+            "DumpingMachine": "Dumping Machine",
+            "DumpingMachineGF": "",
+            "AcidDumpingMachine": "Acid Dumping Machine",
+            "AcidDumpingMachineGF": "",
+
+            "Formation": "Formation",
+            "ChargeAndDischargeMachine": "(Chargers)Charge And Discharge Machine",
+            "ChargeAndDischargeMachineGF": "",
+            "BFSeriesBatteryPowerSupply": "(Chargers)BF Series Battery Power Supply",
+            "BFSeriesBatteryPowerSupplyGF": "",
+            "AutomaticAcidInjectionMachine": "(Formation Systems) Automatic Acid Injection Machine - Fully Auto Acid Filler",
+            "AutomaticAcidInjectionMachineGF": "<ul> <li>Making Acid to Fill in Battery by Vacuum</li> <li>Acid Fill Control</li> <li>Auto Container Loading</li> </ul>",
+            "AGMFillingMachine2000": "(Formation Systems) AGM Filling Machine 2000",
+            "AGMFillingMachine2000GF": "",
+            
+            
+            "ValveInserting": "Valve Inserting",
+            
+            "WashingAndDryingMachines": "Washing and Drying Machines",
+            "WashingAndDryingMachine": "Washing and Drying Machine",
+            "WashingAndDryingMachineGF": "",
+
+            "LabellingMachine": "Labelling Machine",
+            "EngravingMachines": "Engraving Machines",
+            "ShrinkWrapMachine": "Shrink Wrap Machine",
+            "Stackers": "Stackers",
+            "StretchWrapper": "Stretch Wrapper",
+
+        "_COMMENT_Complete_Projects": "",
+            "AssemblyLines": "Assembly Lines",
+            "GridConCastSystem": "Grid Con-Cast System",
+            "LeadStripProductionLine": "Lead Strip Production Line",
+            "ExpandingProductionLine": "Expanding Production Line",
+            "ConDoubleSidePastingLine": "Con-Double Side Pasting Line",
+            "PunchingLine": "Punching Line",
+
+        "_COMMENT_Materials": "",
+            "SafetyvalveAndOring": "Safety valve and O-ring",
+            "FoilSealingMachine": "Foil Sealing Machine"
+
+            CONINUAR Tubos de gotejamento
         }
     },
     "br": {
@@ -105,10 +199,11 @@
         "ProductLine": "Linha De Produtos",
         "AssemblyLine": "Linha De Montagem",
         "PlateMaking": "Fabricação De Chapas",
-        "FinishLine": "Linha Final",
-        "CompleteProject": "Projeto Completo",
-        "UniqueEquipment": "Equipamento Exclusivo",
-        "MaterialSupply": "Fornecimento De Materiais",
+        "FinishingLine": "Linha Final",
+        "CompleteProjects": "Projetos Completos",
+        "UniqueEquipment": "Equipamentos Únicos/Avulsos",
+        "SpareParts": "Peças de Reposição",
+        "MaterialSupply": "Materiais",
         "AboutText": "Fundada em 2008, estamos cooperando com os principais fabricantes da Ásia, com mais de 10 anos de experiência. Na fabricação de baterias e na fabricação de equipamentos para baterias, fornecemos design de fábrica de baterias, design e ferramental de produtos para baterias, soluções completas de projetos para equipamentos de toda a fábrica de baterias e orientação e consultoria de produção de baterias.",
         "Welcome": "Bem-vindo ao VGCJ",
         "WelcomeText": "O foco da VGCJ é o planejamento de energia de armazenamento e a colaboração com especialistas em energia com o objetivo de cortar custos, economizar energia e reduzir as emissões de carbono. Além de nossa vasta experiência em equipamentos de baterias de armazenamento, também fornecemos equipamentos mecânicos e matérias-primas superiores e eficientes para fabricantes de baterias de íons de lítio e chumbo-ácido que podem reduzir a mão de obra e aumentar sua capacidade de produção. Estamos ansiosos para sermos parceiros de negócios!",
@@ -121,8 +216,47 @@
         "TechnicalSupportService": "A VGCJ possui uma equipe profissional de consultoria sênior para atender nossos clientes fiéis. Estamos sempre aqui para atender nossos clientes sempre que eles precisarem de qualquer informação ou ajuda. Economizamos o tempo de pesquisa de nossos clientes e reduzimos o risco ao experimentar novos projetos.",
         "ProductObject": {
             "GeneralFeatures": "Características Gerais",
-            "MachineDetails": "Detalhes da máquina",
+            "MachineDetails": "Detalhes da máquina", 
 
+        "_COMMENT_Plate Making": "",
+            "GridCasting": "Fundição de grades",
+            "GridCastingMachine": "Máquina de Fundição em Grade",
+            "GridCastingMachineGF": "",
+            "SpineGridCaster": "Rodízio de Grade de Coluna",
+            "SpineGridCasterGF": "",
+            "PunchingMachine": "Máquina de Perfuração",
+            "PunchingMachineGF": "",            
+
+            "OxideMills": "Moinhos de Óxido",
+            "BartonOxideMill": "Moinho de óxido Barton",
+            "BartonOxideMillGF": "O moinho de óxido de Barton tem um princípio de trabalho diferente com o moinho de bola Shimatzu. Óxido é produzido no moinho de Barton utilizando um método de oxidação de fase de gás, permitindo uma mais longa vida útil das baterias. O moinho de Barton Sanhuan SF-15 é caracterizado por economia de energia, menor espaço ocupado, maior densidade aparente e fácil controle é principalmente utilizado na fabricação de baterias de tração, baterias estacionárias e outras baterias de ciclos profundos. É também utilizado para fabricação de litargírio e chumbo vermelho.",
+            "LSSeriesAutomaticOxideMill": "Moinho de Óxido Automático Série LS",
+            "LSSeriesAutomaticOxideMillGF": "Moinho de Óxido Automático Série LS Moinho de Óxido da Série LS tem sido melhorado na base do moinho de óxido da série L. Também incorporou vantagens do moinho de óxido do tipo S. Caracterizado pela estrutura compacta, operação estável, controles avançados e óxido de alta qualidade com excelentes propriedades físicas e químicas. É amplamente reconhecido por muitos fabricantes de baterias. <br /> As características do moinho cilíndrico alta produtividade, operação estável e performance confiável. Constitui o sistema integrado cilíndrico automático de fabricação quando conectado ao elevador de cilindro e armazenamento de cilindro e sistema de alimentação. <br /> O sistema de controle avançado permite completo controle desde o início, operação normal para desligar a máquina. Monitoramento em tempo real de todos os parâmetros críticos do processo (temperatura, pressão de ar, carga, etc) é realizado através de interface homem-máquina industrial e CLP. Taxa de carregamento, entrada de ar e spray de água são ajustados automaticamente. Realizando um controle automático não humanizado. <br /> Silo arredondado com ampla capacidade, ocupando uma pequena área permite o first-in/first-out; estrutura selada e os encaixes do “respirador” no silo podem impedir eficientemente a queima da descarga de óxido. Dispositivo opcional de célula de carga faz o gerenciamento da produção mais conveniente. <br />Múltiplas medidas foram tomadas para economia de energia. O silo do cilindro de chumbo equipado com o sistema faz a escória reduzir grandemente. Custos elétricos podem ser reduzidos utilizando taxa variada de eletricidade em períodos diferentes. O investimento será retornado em cinco anos utilizando o moinho de Óxido do tipo S.",
+
+            "PasteMixers": "Masseiras",
+            "SHSeriesAutomaticMixer": "Masseira Automática Série SH",
+            "SHSeriesAutomaticMixerGF": "A Masseira Automática Série SH é comumente reconhecida como uma das mais avançadas masseiras do mundo em virtude de sua performance estável, também pela eficiência da mistura e alta operação, especialmente a masseira com a capacidade de batelada de 1Ton que tem ocupado 80% do mercado Chinês.<br />Confiabilidade do controle é garantido pelo uso do sistema de monitoramento por CLP e tela de toque. Pré ajuste de oito programas de receitas de mistura, menu de operação em dois idiomas (Inglês e Chinês), operação totalmente automática ou manual.<br />Pesagem e despejo de óxido/ácido/água automáticos. Segurança e confiabilidade de pesagem e controles são garantidos pelo uso de marca mundialmente famosa de células de carregamento e válvulas de bola pneumáticas.<br />Painéis interiores do tubo de mistura e todos os componentes que tem contato com a massa são feitos de aço inoxidável à prova de ácido. Raspador e aço inoxidável garante uso por longo período sem troca.<br />Para o bom processo de resfriamento e tratamento de poeira, o sistema pode ser equipado com opcional lavador úmido à prova de corrosão ou lavador desintegrado.",
+
+            "PastingMachines": "Empastadeiras",
+            "DoubleSidePaster": "Paster Dupla Face",
+            "DoubleSidePasterGF": "",
+
+            "FlashDryOvens": "Fornos de Secagem",
+            "FlashDryOven": "Forno de secagem",
+            "FlashDryOvenGF": "",
+
+            "PlateCuttingMachines": "Cortadoras de placas",
+            "PlateCuttingMachine": "Cortadora de placas",
+            "PlateCuttingMachineGF": "",
+            "PlateCutAndBrushMachine": "Máquina de Cortar e Escovar Chapas",
+            "PlateCutAndBrushMachineGF": "",
+
+            "CuringDryingChambers": "Câmaras de secagem e cura",
+            "CuringDryingChamber": "Câmara de Cura e Secagem",
+            "CuringDryingChamberGF": "A câmara de cura de alta temperatura SHX-HT é desenvolvida para adequar-se às necessidades dos altos processos de cura, possui as seguintes características: <br />Realiza verdadeira cura de alta temperatura. A temperatura e umidade da cura podem alcançar 90°C e 98%RH mesmo se não houver fornecimento de vapor pelo usuário.<br />Controle preciso para o conteúdo de sulfato de chumbo tetra básico garante prolongada vida útil das baterias.<br />A unidade de recirculação de ar especialmente desenvolvida, a qual é diferenciada das convencionais, permite controle inteligente para a taxa de de recirculação, tempo de cura e secagem mais rápido e consistência da placa aprimorada.",
+
+
+        "_COMMENT_AssemblyLines": "",     
             "AgmStackers": "Formação de Grupos AGM",
             "St100": "ST-100 U Máquina de Acumulação de Alta Capacidade<br />Série ST (ST-100 / STS-100 / STL-100)",
             "St100Detail": "<ul><li>Sistema de alimentação de placas </li><li>Módulo de corte de automação AGM</li><li>Sistema de empilhamento de grupo de automação/alinhamento e rejeição</li><li>Configuração fácil de parâmetros </li><li>Sistema de recarga de células de rejeição</li></ul>",
@@ -190,7 +324,59 @@
             "AutomaticAirLeakTestingMachineGF": "<ul> <li>Tamanho da bateria aplicável: L 180-525, W 120-285, H 150-220 (em mm)</li> <li>Tempo de ciclo: 3~4 baterias/min.</li> <li>Usando unidade de teste FUKUDA ou unidade de teste numérico IU (opção do usuário)</li> <li>Interface gráfica da máquina, fácil de entender</li> <li>Dois sistemas estão disponíveis: tipo servo / tipo pneumático (opção do usuário)</li> <li>Outras estações funcionais podem ser selecionadas, tais como: gravação a laser, gravação pneumática, gravação elétrica.</li> </ul>",
             "AutomaticAirLeakTestingMachineMD": "<ul> <li>Aprox. tamanho e peso: W 1520 x D 1400 x H 2100 (em mm), 250kg</li> <li>PLC: MITSUBISHI, Painel de toque: PROFACE</li> <li>Ar comprimido: 5~6kg/cm2</li> </ul>",
 
-            "Engravers":"Codificadoras"
+            "Engravers":"Codificadoras",
+
+        "_COMMENT_Finishing_Lines": "",
+            "AcidFillingMachines": "Enchedoras de Ácido",
+            "WetFillingMachine": "Máquina de Enchimento Úmido",
+            "WetFillingMachineGF": "",
+            "_2ndAcidFillingMachine": "2ª Máquina de Enchimento com Ácido",
+            "_2ndAcidFillingMachineGF": "",
+            "AcidFillingAndLevelingMachine": "Máquina de Enchimento e Nivelamento com Ácido",
+            "AcidFillingAndLevelingMachineGF": "",
+            "AcidFillingMachine": "Máquina de enchimento de ácido",
+            "AcidFillingMachineGF": "",
+
+            "DumpingMachines": "Esvaziadoras",
+            "DumpingMachine": "Esvaziadora",
+            "DumpingMachineGF": "",
+            "AcidDumpingMachine": "Esvaziadora Ácida",
+            "AcidDumpingMachineGF": "",
+
+            "Formation": "Formação",
+            "ChargeAndDischargeMachine": "(Carregadores) Máquina de Carga e Descarga",
+            "ChargeAndDischargeMachineGF": "",
+            "BFSeriesBatteryPowerSupply": "(Carregadores) Fonte de alimentação de bateria da série BF",
+            "BFSeriesBatteryPowerSupplyGF": "",
+            "AutomaticAcidInjectionMachine": "(Sistemas de Formação) Máquina Automática de Injeção de Ácido - Enchedora de ácido totalmente automática",
+            "AutomaticAcidInjectionMachineGF": "<ul> <li>Faz o ácido encher a bateria por vácuo</li> <li>Controle do enchimento de ácido</li> <li>Suprimento de caixa automático</li> </ul>",
+            "AGMFillingMachine2000": "(Sistemas de Formação) Máquina de enchimento AGM 2000",
+            "AGMFillingMachine2000GF": "",
+
+            "ValveInserting": "Aplicador de válvulas",
+
+            "WashingAndDryingMachines": "Lavadoras e Secadoras",
+            "WashingAndDryingMachine": "Lavadora e Secadora",
+            "WashingAndDryingMachineGF": "",
+
+            "LabellingMachine": "Rotuladora",
+            "EngravingMachines": "Máquinas Codificadoras",
+            "ShrinkWrapMachine": "Plastificadora",
+            "Stackers": "Empilhadores automáticos",
+            "StretchWrapper": "Máquina de Filme Stretch",
+
+        "_COMMENT_Complete_Projects": "",
+            "AssemblyLines": "Linhas de Montagem",
+            "GridConCastSystem": "Sistema Contínuo de Fundição de Grades- Con-Cast",
+            "LeadStripProductionLine": "Linha de Produção de cinta de Chumbo",
+            "ExpandingProductionLine": "Linha de Produção de Grades Expandidas",
+            "ConDoubleSidePastingLine": "Linha Contínua de Dupla Empastação",
+            "PunchingLine": "Linha Punch - Grades" ,
+
+        "_COMMENT_Materials": "",
+            "SafetyvalveAndOring": "Válvula de segurança e O-ring",
+            "FoilSealingMachine": "Máquina de selagem de folha"
+
         }
     },
     "tw": {
@@ -202,9 +388,10 @@
         "ProductLine": "產品線",
         "AssemblyLine": "裝配線",
         "PlateMaking": "板材製造",
-        "FinishLine": "最後一行",
-        "CompleteProject": "完成專案",
+        "FinishingLine": "最後一行",
+        "CompleteProjects": "完成專案",
         "UniqueEquipment": "專用設備",
+        "SpareParts": "備件",
         "MaterialSupply": "材料供應",
         "AboutText": "成立於 2008 年，我們與亞洲頂級製造商合作，擁有超過 10 年的經驗。 在電池製造和電池設備製造方面，我們提供電池工廠設計、電池產品設計和工裝、電池整廠設備完整項目解決方案、電池生產指導和諮詢服務。",
         "Welcome": "歡迎來到VGCJ",
@@ -220,22 +407,61 @@
             "GeneralFeatures": "一般功能",
             "MachineDetails": "機器詳細資訊",
 
-            "AgmStackers": "AGM Stackers",
+             
+        "_COMMENT_Plate Making": "",
+            "GridCasting": "網格鑄造",
+            "GridCastingMachine": "網格鑄造機",
+            "GridCastingMachineGF": "",
+            "SpineGridCaster": "脊柱網格腳輪",
+            "SpineGridCasterGF": "",
+            "PunchingMachine": "拳擊機器",
+            "PunchingMachineGF": "",            
+
+            "OxideMills": "氧化物磨機",
+            "BartonOxideMill": "巴頓氧化磨機",
+            "BartonOxideMillGF": "巴頓氧化磨機與島津球磨機的工作原理不同。 巴頓工廠採用氣相氧化方法生產氧化物，從而延長電池壽命。 三環SF-15巴頓磨俱有節能、佔地面積小、堆積密度高、易於控制等特點。 主要用於製造動力電池、固定電池及其他深循環電池。 它還用於製造鉛黃和紅鉛。",
+            "LSSeriesAutomaticOxideMill": "LS系列自動氧化磨機",
+            "LSSeriesAutomaticOxideMillGF": "LS系列全自動氧化物磨粉機 LS系列氧化物磨粉機是在L系列氧化物磨粉機的基礎上改進而成的。 它還融合了S型氧化物磨粉機的優點。 具有結構緊湊、運行穩定、控制先進、氧化物質量高、物理化學性能優良等特點。 得到眾多電池製造商的廣泛認可。 <br /> 圓筒磨機生產效率高、運行穩定、性能可靠。 與鋼瓶提昇機、鋼瓶儲送系統連接，構成全自動鋼瓶集成製造系統。<br /> 先進的控制系統可實現從啟動、正常運行到停機的完整控制。 通過工業人機界面和PLC對所有關鍵過程參數（溫度、氣壓、負載等）進行實時監控。 充電速率、進氣量和噴水量自動調節。 進行非人性化的自動控制。<br /> 圓形料倉容量充足，佔地面積小，先進先出； 筒倉內的密封結構和“呼吸”裝置可以有效防止氧化物排放燃燒。 可選配稱重傳感器裝置，使生產管理更加方便。<br /> 採取多項措施節約能源。 該系統配備的鉛缸筒倉，使爐渣大大減少。 通過在不同時間使用不同的電價可以降低電力成本。 使用S型氧化物磨機，五年即可收回投資。",
+
+            "PasteMixers": "糊劑攪拌機",
+            "SHSeriesAutomaticMixer": "SH系列自動混合機",
+            "SHSeriesAutomaticMixerGF": "SH系列全自動捏合機因其性能穩定、混合效率高、操作性高而被公認為世界上最先進的捏合機之一，特別是1噸批量捏合機已佔據中國80%的份額 <br />採用PLC和触摸屏監控系統，保證控制可靠性。預設八個攪拌配方程序，雙語操作菜單（中英文），全自動或手動操作。<br / > 氧化物/酸/水自動稱量和傾倒，採用世界名牌稱重傳感器和氣動球閥，確保稱量和控制安全可靠。<br /> 混合管內部面板及所有接觸部件 質量塊均採用耐酸不銹鋼製成，刮刀和不銹鋼確保長期使用不需更換。<br />為了良好的冷卻過程和粉塵處理，系統可選配防腐蝕濕式清洗器或破碎器 墊圈。",
+
+            "PastingMachines": "粘貼機",
+            "DoubleSidePaster": "雙面貼",
+            "DoubleSidePasterGF": "",
+
+            "FlashDryOvens": "快速乾燥爐",
+            "FlashDryOven": "閃蒸乾燥箱",
+            "FlashDryOvenGF": "",
+
+            "PlateCuttingMachines": "板材切割機",
+            "PlateCuttingMachine": "板材切割機",
+            "PlateCuttingMachineGF": "",
+            "PlateCutAndBrushMachine": "切板刷板機",
+            "PlateCutAndBrushMachineGF": "",
+
+            "CuringDryingChambers": "固化和乾燥室",
+            "CuringDryingChamber": "固化和乾燥室",
+            "CuringDryingChamberGF" : "高溫固化室SHX-HT是為了適應高固化工藝的需要而開發的，它具有以下特點：<br />進行真正的高溫固化。固化溫度和濕度可達90°C 即使用戶不提供蒸汽，也能保持98%RH。<br />精確控制四鹼式硫酸鉛含量，延長電池壽命。<br />與傳統空氣再循環裝置不同，專門開發的空氣再循環裝置可以使電池壽命更長。 智能控制再循環速率、更快的固化和乾燥時間並提高紙板的一致性。",
+
+        "_COMMENT_AssemblyLines": "",     
+            "AgmStackers": "AGM 堆垛機",
             "St100": "ST-100 U型高產能積重機 <br /> ST系列 (ST-100 / STS-100 / STL-100) ",
             "St100Detail": "<ul> <li>一正二負供料系統</li> <li>AGM自動剪裁系統</li> <li>極群自動堆疊整列系統</li> <li>單模組伺服馬達控制</li> <li>便利化參數設定</li> <li>不良極群排出後補料系統</li> </ul>",
 
-            "Envelopers":"Envelopers",
+            "Envelopers":"信封",
             
-            "COSCastonStrap":"COS-Cast on Strap",
+            "COSCastonStrap":"COS-鑄在錶帶上",
             "Cos300": "COS-300 全自動高產能COS手臂 <br /> COS系列 (B / B Robot)",
             "Cos300Detail": "<ul> <li>6軸機械手臂</li> <li>全自動沾油機構</li> <li>刮鉛系統</li> <li>鉛液面監控系統</li> <li>補鉛系統</li></ul>",
             "Gir06": "GIR-06 全自動極群機械手臂置入系統 <br /> GIR系列",
             "Gir06Detail": "<ul> <li>適用於多種機型</li> <li>補料功能-銜接各種定距積重機</li> <li>適用於重力鑄造 / 延展 / 沖壓類型之極版</li></ul>",
 
-            "ShortCircuitTesters":"Short Circuit Testers",
-            "HolePunchingMachines":"Hole Punching Machines",
+            "ShortCircuitTesters":"短路測試儀",
+            "HolePunchingMachines":"打孔機",
 
-            "IntercellWeldingMachines":"Intercell Welding Machines",
+            "IntercellWeldingMachines":"電池間焊接機",
             "AutomaticWeldingMachine": "自動焊接機",
             "AutomaticWeldingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：6 節電池/分鐘。</li> <li>多功能一體機.</li> <li>專利智能焊接技術，大幅提升焊接質量和操作</li> <li>穩定性。</li> <li>可根據客戶的產能需求，搭配合適的</li> <li>工作站。</li> <li>可選擇其他功能工位進行匹配，如：短路測試，</li> <li>極性測試、剪切測試和</li> <li>內阻測試.</li> <li>圖形化機器界面，簡單易懂</li> <li>配備冷卻水設備和溫度檢測系統，可控制</li> <li>溫度。 焊接狀態</li> </ul>",
             "AutomaticWeldingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 4300 x D 1300 x H2000 (in mm), 2500kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE, Controller : MIYACHI</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
@@ -245,25 +471,25 @@
             "Icw300": "ICW-300 全自動穿壁焊機 <br /> ICW系列 ",
             "Icw300Detail": "<ul> <li>可控制焊接距離與壓力</li> <li>可獨立設定穿壁焊位</li> <li>單模組伺服馬達</li> <li>全新焊頭設計</li> <li>全彩控制面板</li> <li>數據蒐集</li></ul>",
 
-            "ShearTesters":"Shear Testers",
+            "ShearTesters":"剪切試驗機",
             "AutomaticShearTestingMachine": "全自動剪切試驗機",
             "AutomaticShearTestingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~4節電池/分鐘。</li> <li>通過剪切試驗檢驗電池焊接強度的好壞。</li> <li>微電腦數控精確輸出剪切力</li> <li>圖形化機器界面，簡單易懂</li> </ul>",
             "AutomaticShearTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 2000 x D 1450x H 2300 (in mm), 820kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
 
-            "PolarityTesters":"Polarity Testers",
+            "PolarityTesters":"極性測試儀",
             "AutomaticPolarityTestingMachine": "自動極性測試",
             "AutomaticPolarityTestingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：6~8 節電池/分鐘。</li> <li>用於測試綠板電池的極性。</li> <li>容易知道哪個單元格不正確並顯示在觸摸屏上</li> </ul>",
             "AutomaticPolarityTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 800 x D 650 x H 1770 (mm), 200kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
 
-            "WeldTesters":"Weld Testers",
-            "GlueInserting":"Glue Inserting",
+            "WeldTesters":"焊接測試儀",
+            "GlueInserting":"插膠",
 
-            "CoverPlacingMachines":"Cover Placing Machines",
+            "CoverPlacingMachines":"貼蓋機",
             "AutomaticCoverPlacingMachine": "自動上蓋機",
             "AutomaticCoverPlacingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~5 節電池/分鐘。</li> <li>自動校正引線端子位置，準確放置電池蓋。</li> <li>電池蓋自動送料區，可存放約100個電池蓋。</li> <li>圖形化機器界面，簡單易懂</li> </ul>",
             "AutomaticCoverPlacingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 2200 x D 2130x H 2450 (in mm), 750kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
 
-            "HeatSealingMachines":"Heat Sealing Machines",
+            "HeatSealingMachines":"熱封機",
             "AutomaticServoHeatSealingMachine": "全自動伺服熱封機",
             "AutomaticServoHeatSealingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：6 節電池/分鐘。</li> <li>直線運動導軌設計，模具、加熱板運動精準順暢。 </li> <li>加熱管異常檢測</li> <li>獲得專利的新模具設計可快速更換模具。</li> <li>圖形化機器界面，簡單易懂</li> <li>預熱功能和自動轉換系統（選項）</li> </ul>",
             "AutomaticServoHeatSealingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1320 x D 1660 x H 2050 (in mm), 950kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
@@ -271,8 +497,8 @@
             "AutomaticBatteryHeatSealingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~5 節電池/分鐘。</li> <li>兩種系統可供選擇：伺服式/氣動式（用戶選擇）</li> <li>直線運動導軌設計，模具、加熱板運動精準順暢。</li> <li>加熱管異常檢測</li> <li>獲得專利的新模具設計可快速更換模具。</li> <li>圖形化機器界面，簡單易懂</li> <li>預熱功能和自動轉換系統（選項）</li> </ul>",
             "AutomaticBatteryHeatSealingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1600 x D 1720x H 2100 (in mm), 900kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
 
-            "PostBurning":"Post Burning",
-            "TIGWelding":"TIG Welding",
+            "PostBurning":"後燒錄",
+            "TIGWelding":"氬弧焊",
             "AutomaticTIGWeldingMachine": "自動TIG焊機",
             "AutomaticTIGWeldingMachineGF": "<ul> <li>適用電池尺寸：L 113-175, W 70-87, H 85-155 (in mm)</li> <li>循環時間：7~8 節電池/分鐘。</li> <li>氣體使用：氬氣</li> <li>直線滑軌結構，移動工位快速準確。</li> <li>所有機器參數可記憶，快速切換不同機型。</li> <li>全新TIG模具設計，安全性更全面。</li> </ul>",
             "AutomaticTIGWeldingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1350 x D 1300 x H 2000 (in mm), 300kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
@@ -287,7 +513,59 @@
             "AutomaticAirLeakTestingMachineGF": "<ul> <li>適用電池尺寸：L 180-525, W 120-285, H 150-220 (in mm)</li> <li>循環時間：3~4節電池/分鐘。</li> <li>使用 FUKUDA 測試單元或 IU 數值測試單元（用戶選項）</li> <li>圖形機界面，通俗易懂</li> <li>兩種系統可供選擇：伺服式/氣動式（用戶選擇）</li> <li>可選擇其他功能工位，如：激光雕刻、氣動雕刻、電雕刻。</li> </ul>",
             "AutomaticAirLeakTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1520 x D 1400x H 2100 (in mm), 250kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
 
-            "Engravers":"Engravers"
+            "Engravers":"雕刻師",
+
+        "_COMMENT_Finishing_Lines": "",
+            "AcidFillingMachines": "酸灌裝機",
+            "WetFillingMachine": "濕法灌裝機",
+            "WetFillingMachineGF": "",
+            "_2ndAcidFillingMachine": "第二台酸灌裝機",
+            "_2ndAcidFillingMachineGF": "",
+            "AcidFillingAndLevelingMachine": "酸液灌裝流平機",
+            "AcidFillingAndLevelingMachineGF": "",
+            "AcidFillingMachine": "酸灌裝機",
+            "AcidFillingMachineGF": "",
+            
+            "DumpingMachines": "台傾卸機",
+            "DumpingMachine": "傾卸機",
+            "DumpingMachineGF": "",
+            "AcidDumpingMachine": "倒酸機",
+            "AcidDumpingMachineGF": "",
+
+            "Formation": "隊形",
+            "ChargeAndDischargeMachine": "(充電器)充放電機",
+            "ChargeAndDischargeMachineGF": "",
+            "BFSeriesBatteryPowerSupply": "(充電器)BF系列電池電源",
+            "BFSeriesBatteryPowerSupplyGF": "",
+            "AutomaticAcidInjectionMachine": "(成型系統)自動注酸機-全自動注酸機",
+            "AutomaticAcidInjectionMachineGF": "<ul> <li>真空制酸填充電池</li> <li>酸液填充控制</li> <li>自動裝箱</li> </ul>",
+            "AGMFillingMachine2000": "(成型系統) AGM 灌裝機 2000",
+            "AGMFillingMachine2000GF": "",
+
+            "ValveInserting": "閥門插入",
+
+            "WashingAndDryingMachines": "洗衣機和烘乾機",
+            "WashingAndDryingMachine": "洗烘一體機",
+            "WashingAndDryingMachineGF": "",
+
+            "LabellingMachine": "貼標機",
+            "EngravingMachines": "台雕刻機",
+            "ShrinkWrapMachine": "熱收縮包裝機",
+            "Stackers": "堆垛機",
+            "StretchWrapper": "拉伸包裝紙",
+
+        "_COMMENT_Complete_Projects": "",
+            "AssemblyLines": "裝配線",
+            "GridConCastSystem": "網格連播系統",
+            "LeadStripProductionLine": "引線帶生產線",
+            "ExpandingProductionLine": "擴大生產線",
+            "ConDoubleSidePastingLine": "Con-雙面粘貼線",
+            "PunchingLine": "打孔線",
+
+        "_COMMENT_Materials": "",
+            "SafetyvalveAndOring": "安全閥和O型圈",
+            "FoilSealingMachine": "鋁箔封口機"
+
         }
     }
 }
