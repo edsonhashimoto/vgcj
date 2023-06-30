@@ -177,11 +177,35 @@
 
         "_COMMENT_Complete_Projects": "",
             "AssemblyLines": "Assembly Lines",
+            "MotorcycleAssemblyLine": "Motorcycle Assembly Line",
+            "MotorcycleAssemblyLineGF": "<ul> <li>Simple / VRLA</li> <li>Custom</li> <li>Best Quality</li> </ul>",
+            "AutomotiveAssemblyLine": "Automotive Assembly Line",
+            "AutomotiveAssemblyLineGF": "<ul> <li>Simple / VRLA</li> <li>Custom</li> <li>Best Quality</li> </ul>",
+
+            "ContinuousGridCastingSystem": "Continuous Grid Casting System",
             "GridConCastSystem": "Grid Con-Cast System",
+            "GridConCastSystemGF": "Con-Cast / Com-Roll Line <br /> This system provides a continuous casting and rolling system for making grids.",
+            "GridConCastSystemMD": "<ul> <li>Gas Oven System</li> <li>With Cast </li> <li>Gas firing system</li> <li>Ultrasonic cleaning system </li> <li> Grid feeding system</li> <li>Roll system </li> <li>Vertical winder </li> <li>Circular casting mould.</li> </ul>",
+            
+            "LeadStripBladeProductionLine": "Lead Strip/Blade Production Line",
             "LeadStripProductionLine": "Lead Strip Production Line",
+            "LeadStripProductionLineGF": "<ul> <li>Melting Furnace (2* Capacity: 10T / PC)</li> <li>Lead Plate Casting System </li> <li>Coiler</li> <li>Scroll Supports (Type 5+1) </li> <li>Cleaning system </li> <li>Cutting system </li> <li>Guide rail</li> <li>Operating platform and Electrical control components .</li> </ul>",
+
             "ExpandingProductionLine": "Expanding Production Line",
+            "ExpandedBoardProductionLine": "Expanded Board Production Line",
+            "ExpandedBoardProductionLineGF": "<ul> <li>2-way vertical deboning machine;</li> <li>Pre-drilling/punching machine;</li> <li>Expander;</li> <li>TAB BLANKER</li> <li >Coiler.</li> </ul>",
+
             "ConDoubleSidePastingLine": "Con-Double Side Pasting Line",
+            "ContinuousDoubleImpastoLine": "Continuous Double (both sides) Impasto Line",
+            "ContinuousDoubleImpastoLineGF": "<ul> <li>Unwinder </li> <li>Paper covering system </li> <li>Rotary cutter </li> <li>Conveyor belt </li> <li>Drying machine </li> <li>Double pasting machine (circular type without belt) </li> <li>Plate stacker (AUTOMATIC).</li> </ul>",
+
             "PunchingLine": "Punching Line",
+            "ContinuousHighSpeedPunchingLine": "Continuous High-Speed Punching Line",
+            "ContinuousHighSpeedPunchingLineGF":"<ul> <li>Speed: 200 strokes/min.</li></ul>",
+            "ContinuousWideStripCastingLine":"Continuous Wide Strip Casting Line",
+            "ContinuousWideStripCastingLineGF":"<ul> <li>Speed:40m/min; Capacity: 8t/h</li></ul>",
+            "ConpastingDividingAndStackingLine":"Conpasting-dividing and Stacking Line",
+            "ConpastingDividingAndStackingLineGF":"<ul> <li>Speed:25/min</li></ul>",
 
         "_COMMENT_Materials": "",
             "SafetyvalveAndOring": "Safety valve and O-ring",
@@ -421,11 +445,35 @@
 
         "_COMMENT_Complete_Projects": "",
             "AssemblyLines": "Linhas de Montagem",
+            "MotorcycleAssemblyLine": "Linha de montagem de baterias de moto",
+            "MotorcycleAssemblyLineGF": "<ul> <li>Simples / VRLA</li> <li>Customizada</li> <li>Melhor qualidade</li> </ul>",
+            "AutomotiveAssemblyLine": "Linha de montagem de baterias de carro",
+            "AutomotiveAssemblyLineGF": "<ul> <li>Simples / VRLA</li> <li>Customizada</li> <li>Melhor qualidade</li> </ul>",
+
+            "ContinuousGridCastingSystem": "Sistema de Fundição Contínua de Grades",
             "GridConCastSystem": "Sistema Contínuo de Fundição de Grades- Con-Cast",
+            "GridConCastSystemGF": "Con-Cast / Com-Roll Line <br /> Este sistema fornece uma fundição contínua e sistema de rolagem para fabricação de grades.",
+            "GridConCastSystemMD": "<ul> <li>Sistema de Forno à Gás</li> <li>Com Cast </li> <li>Sistema de quima por Gás</li> <li>Sistema de limpeza ultrasônica </li> <li>Sistema de alimentação de grades</li> <li>Sistema Com Roll </li> <li>Bobinador Vertical </li> <li>Molde de fundição circular.</li> </ul>",
+
+            "LeadStripBladeProductionLine": "Linha de produção de cinta/lâmina de chumbo",
             "LeadStripProductionLine": "Linha de Produção de cinta de Chumbo",
+            "LeadStripProductionLineGF": "<ul> <li>Forno de derretimento (2* Capacitade: 10T / PC)</li> <li>Sistema de fundição de placa de chumbo </li> <li>Bobinador</li> <li>Suportes de rolagem (Tipo 5+1) </li> <li>Sistema de limpeza </li> <li>Sistema de corte </li> <li>Trilho guia</li> <li>Plataforma de operação e Componentes de controle elétrico.</li> </ul>",
+
             "ExpandingProductionLine": "Linha de Produção de Grades Expandidas",
+            "ExpandedBoardProductionLine": "Linha de Produção de Placa Expandida",
+            "ExpandedBoardProductionLineGF": "<ul> <li>Desboninador vertical de 2 vias;</li> <li>Máquina de pré perfuração/punção;</li> <li>Expansor;</li> <li>TAB BLANKER</li> <li>Bobinador.</li> </ul>",
+
             "ConDoubleSidePastingLine": "Linha Contínua de Dupla Empastação",
+            "ContinuousDoubleImpastoLine": "Linha de empastação dupla (ambos os lados) contínua",
+            "ContinuousDoubleImpastoLineGF": "<ul> <li>Desbobinador </li> <li>Sistema de cobertura por papel </li> <li>Cortador rotativo </li> <li>Esteira </li> <li>Máquina de secagem </li> <li>Máquina de empastação dupla (do tipo circular sem correia) </li> <li>Empilhador de placas (AUTOMÁTICO).</li> </ul>",
+
             "PunchingLine": "Linha Punch - Grades" ,
+            "ContinuousHighSpeedPunchingLine": "Linha contínua de produção de placas por perfuração (Punching) de alta velocidade",
+            "ContinuousHighSpeedPunchingLineGF":"<ul><li>Velocidade: 200 golpes / minuto</li></ul>",
+            "ContinuousWideStripCastingLine":"Linha contínua de fundição de cinta de chumbo larga",
+            "ContinuousWideStripCastingLineGF":"<ul><li>Velocidade: 40 m / min; Capacidade: 8 ton / hr.</li></ul>",
+            "ConpastingDividingAndStackingLine":"Linha de empastação contínua – divisão e empilhamento",
+            "ConpastingDividingAndStackingLineGF":"<ul><li>Velocidade: 25 m / min.</li></ul>",            
 
         "_COMMENT_Materials": "",
             "SafetyvalveAndOring": "Válvula de segurança e O-ring",
@@ -663,11 +711,35 @@
 
         "_COMMENT_Complete_Projects": "",
             "AssemblyLines": "裝配線",
+            "MotorcycleAssemblyLine": "摩托車裝配線",
+            "MotorcycleAssemblyLineGF": "<ul> <li>簡單/VRLA</li> <li>自定義</li> <li>最佳質量</li> </ul>",
+            "AutomotiveAssemblyLine": "汽車裝配線",
+            "AutomotiveAssemblyLineGF": "<ul> <li>簡單/VRLA</li> <li>自定義</li> <li>最佳質量</li> </ul>",
+
+            "ContinouslyGridCastingSystem": "連續網格鑄造系統",
             "GridConCastSystem": "網格連播系統",
+            "GridConCastSystemGF": "Con-Cast / Com-Roll Line <br />該系統提供了用於製作網格的連續鑄造和軋製系統。",
+            "GridConCastSystemMD": "<ul> <li>燃氣烤爐系統</li> <li>帶鑄件</li> <li>燃氣系統</li> <li>超聲波清洗系統</li> <li> 網格送料系統</li> <li>收卷系統</li> <li>立式收捲機</li> <li>圓形鑄模。</li> </ul>",
+
+            "LeadStripBladeProductionLine": "鉛帶/葉片生產線",
             "LeadStripProductionLine": "引線帶生產線",
+            "LeadStripProductionLineGF": "<ul> <li>熔煉爐（2*容量：10T/PC）</li> <li>鉛板鑄造系統</li> <li>捲取機</li> <li>滾動支架 （5+1型）</li> <li>清洗系統</li> <li>切割系統</li> <li>導軌</li> <li>操作平台及電氣控制元件。</li > </ul>",
+
             "ExpandingProductionLine": "擴大生產線",
+            "ExpandedBoardProductionLine": "擴展板生產線",
+            "ExpandedBoardProductionLineGF": "<ul> <li>2路立式剔骨機；</li> <li>預鑽孔/沖孔機；</li> <li>擴張器；</li> <li>TAB BLANKER </li> <li>捲取機。</li> </ul>",
+
             "ConDoubleSidePastingLine": "Con-雙面粘貼線",
+            "ContinuousDoubleImpastoLine": "連續雙（兩側）厚塗線",
+            "ContineousDoubleImpastoLineGF": "<ul> <li>開捲機</li> <li>紙張覆蓋系統</li> <li>旋轉切刀</li> <li>傳送帶</li> <li>乾燥機< /li> <li>雙糊機（圓形無皮帶）</li> <li>堆板機（自動）。</li> </ul>",
+
             "PunchingLine": "打孔線",
+            "ContinuousHighSpeedPunchingLine": "連續高速沖壓線",
+            "ContinuousHighSpeedPunchingLineGF":"<ul><li>速度：200 衝程/分鐘。</li></ul>",
+            "ContinuousWideStripCastingLine":"連續寬帶連鑄線",
+            "ContinuousWideStripCastingLineGF":"<ul><li>速度：40m/min；產能：8t/h</li></ul>",
+            "ConpastingDividingAndStackingLine":"Conpasting-分割堆疊線",
+            "ConpastingDividingAndStackingLineGF":"<ul><li>速度:25/分鐘</li></ul>",
 
         "_COMMENT_Materials": "",
             "SafetyvalveAndOring": "安全閥和O型圈",
