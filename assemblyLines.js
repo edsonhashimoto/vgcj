@@ -1,8 +1,3 @@
-/*
-
-Est´no products.js
-
-*/
 import { HeaderFotter } from "./headerFooter.js";
 
 $(document).ready(
