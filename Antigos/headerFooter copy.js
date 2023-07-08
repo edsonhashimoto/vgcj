@@ -47,6 +47,45 @@ export async function HeaderFotter(funcaoExtra) {
 
     loadLanguage();
 
+    const linksMenu = document.querySelectorAll('.mLink');
+            
+    function handleClick(event){
+        event.preventDefault();
+        fetchPage(event.target.href);
+        window.history.pushState(null,null,event.target.href);
+    };
+
+    async function fetchPage(url){
+        const pageResponse = await fetch(url);
+        const pageText = await pageResponse.text();
+        replaceContent(pageText);
+    };
+
+    function replaceContent(newText) {
+        const newHtml = document.createElement('div');
+        newHtml.innerHTML = newText;
+    
+        const oldContent = document.querySelector('main');
+        const newContent = newHtml.querySelector('main');
+    
+        oldContent.innerHTML = newContent.innerHTML;
+
+        debugger;
+        const script = document.createElement('script');
+        document.body.appendChild(script);
+        script.async = true;
+        script.src = './plateMaking.js';
+
+    }
+    
+    linksMenu.forEach(link => {
+        link.addEventListener('click', handleClick);
+    });
+
+    window.addEventListener('popstate', () => {
+        fetchPage(window.location.href);
+    });
+    
     $('#flagUsa').on("click",
         function () {
             localStorage.setItem('lang', 'us');

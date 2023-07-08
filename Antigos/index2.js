@@ -1,15 +1,44 @@
 'use strict';
 import { HeaderFotter } from "./headerFooter.js";
+//import { PlateMaking } from "./plateMaking.js";
 
 $(document).ready(
     function () {
         async function funcaoExtraLocal() {
-            /*
-            const pageResponse = await fetch('./main.html')
-            const pageText = await pageResponse.text();
-            const content = document.querySelector('#content');
-            content.innerHTML = pageText;
-            */
+            const linksMenu = document.querySelectorAll('.mLink');
+            
+            function handleClick(event){
+                event.preventDefault();
+                fetchPage(event.target.href);
+                window.history.pushState(null,null,event.target.href);
+            };
+
+            async function fetchPage(url){
+                const pageResponse = await fetch(url);
+                const pageText = await pageResponse.text();
+                replaceContent(pageText);
+            };
+
+            function replaceContent(newText) {
+                const newHtml = document.createElement('div');
+                newHtml.innerHTML = newText;
+            
+                const oldContent = document.querySelector('main');
+                const newContent = newHtml.querySelector('main');
+            
+                oldContent.innerHTML = newContent.innerHTML;
+
+            }
+            
+            linksMenu.forEach(link => {
+                link.addEventListener('click', handleClick);
+            });
+
+            window.addEventListener('popstate', () => {
+                fetchPage(window.location.href);
+            });
+      
+            debugger;
             const language = JSON.parse(localStorage.getItem('language'));
             document.getElementById("tProductLine").innerHTML = language.ProductLine.toUpperCase();
             document.getElementById("tAssemblyLine").innerHTML = language.AssemblyLine.toUpperCase();
@@ -33,7 +62,7 @@ $(document).ready(
             document.getElementById("tProductsService").innerHTML = language.ProductsService;
             document.getElementById("tTechnicalSupport").innerHTML = language.TechnicalSupport;
             document.getElementById("tTechnicalSupportService").innerHTML = language.TechnicalSupportService;
-            
+           
            
         }
         

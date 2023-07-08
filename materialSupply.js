@@ -1,9 +1,10 @@
+'use strict';
 import { HeaderFotter } from "./headerFooter.js";
 
 $(document).ready(
     function () {
         function funcaoExtraLocal() {
-            var language = JSON.parse(localStorage.getItem('language'));
+            const language = JSON.parse(localStorage.getItem('language'));
 
             document.getElementById("tMaterialSupply").innerHTML = language.MaterialSupply;
 

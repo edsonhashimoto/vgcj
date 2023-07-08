@@ -1,17 +1,18 @@
+'use strict';
 import { HeaderFotter } from "./headerFooter.js";
 
 $(document).ready(
     function () {
         function funcaoExtraLocal() {
-            var language = JSON.parse(localStorage.getItem('language'));
+            const language = JSON.parse(localStorage.getItem('language'));
 
-            var tGeneralFeatures = document.querySelectorAll(".tGeneralFeatures");
-            for (var i = 0; i < tGeneralFeatures.length; i++) {
+            const tGeneralFeatures = document.querySelectorAll(".tGeneralFeatures");
+            for (let i = 0; i < tGeneralFeatures.length; i++) {
                 tGeneralFeatures[i].innerHTML = language.ProductObject.GeneralFeatures;
             }
 
-            var tMachineDetails = document.querySelectorAll(".tMachineDetails");
-            for (var i = 0; i < tMachineDetails.length; i++) {
+            const tMachineDetails = document.querySelectorAll(".tMachineDetails");
+            for (let i = 0; i < tMachineDetails.length; i++) {
                 tMachineDetails[i].innerHTML = language.ProductObject.MachineDetails;
             }
 
@@ -24,6 +25,14 @@ $(document).ready(
             document.getElementById("figSt100").setAttribute("alt", language.ProductObject.St100);
 
             document.getElementById("tEnvelopers").innerHTML = language.ProductObject.Envelopers;
+            document.getElementById("tEnvelopingAndStackingMachine").innerHTML = language.ProductObject.EnvelopingAndStackingMachine;
+            document.getElementById("tEnvelopingAndStackingMachineGF").innerHTML = language.ProductObject.EnvelopingAndStackingMachineGF;
+            document.getElementById("figEnvelopingAndStackingMachine").innerHTML = language.ProductObject.EnvelopingAndStackingMachine;
+            document.getElementById("figEnvelopingAndStackingMachine").setAttribute("alt", language.ProductObject.EnvelopingAndStackingMachine);
+            document.getElementById("tStackingMachine").innerHTML = language.ProductObject.StackingMachine;
+            document.getElementById("tStackingMachineGF").innerHTML = language.ProductObject.StackingMachineGF;
+            document.getElementById("figStackingMachine").innerHTML = language.ProductObject.StackingMachine;
+            document.getElementById("figStackingMachine").setAttribute("alt", language.ProductObject.StackingMachine);
 
             document.getElementById("tCOSCastonStrap").innerHTML = language.ProductObject.COSCastonStrap;
             document.getElementById("tCos300").innerHTML = language.ProductObject.Cos300;
@@ -36,6 +45,15 @@ $(document).ready(
             document.getElementById("figGir06").setAttribute("alt", language.ProductObject.Gir06);
 
             document.getElementById("tShortCircuitTesters").innerHTML = language.ProductObject.ShortCircuitTesters;	
+            document.getElementById("tShortCircuitTestersMachine").innerHTML = language.ProductObject.ShortCircuitTestersMachine;
+            document.getElementById("tShortCircuitTestersMachineGF").innerHTML = language.ProductObject.ShortCircuitTestersMachineGF;
+            document.getElementById("figShortCircuitTestersMachine").innerHTML = language.ProductObject.ShortCircuitTestersMachine;
+            document.getElementById("figShortCircuitTestersMachine").setAttribute("alt", language.ProductObject.ShortCircuitTestersMachine);
+            document.getElementById("tShortCircuitTestersMachine_b").innerHTML = language.ProductObject.ShortCircuitTestersMachine_b;
+            document.getElementById("tShortCircuitTestersMachine_bGF").innerHTML = language.ProductObject.ShortCircuitTestersMachine_bGF;
+            document.getElementById("figShortCircuitTestersMachine_b").innerHTML = language.ProductObject.ShortCircuitTestersMachine_b;
+            document.getElementById("figShortCircuitTestersMachine_b").setAttribute("alt", language.ProductObject.ShortCircuitTestersMachine_b);
+
             document.getElementById("tHolePunchingMachines").innerHTML = language.ProductObject.HolePunchingMachines;	
             
             document.getElementById("tIntercellWeldingMachines").innerHTML = language.ProductObject.IntercellWeldingMachines;	
