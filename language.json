@@ -145,6 +145,8 @@
             "AutomaticAirLeakTestingMachineMD": "<ul> <li>Approx. size and weight : W 1520 x D 1400x H 2100 (in mm), 250kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>Compressed air : 5~6kg/cm2</li> </ul>",
 
             "Engravers":"Engravers",
+            "AirLeakTestingAndEngraving":"Air Leak Testing & Engraving",
+            "AirLeakTestingAndEngravingGF":"",
 
         "_COMMENT_Finishing_Lines": "",
             "AcidFillingMachines": "Acid Filling Machines",
@@ -348,7 +350,7 @@
         "_COMMENT_AssemblyLines": "",     
             "AgmStackers": "Formação de Grupos AGM",
             "St100": "ST-100 U Máquina de Acumulação de Alta Capacidade<br />Série ST (ST-100 / STS-100 / STL-100)",
-            "St100GF": "<ul><li>Sistema de alimentação de placas </li><li>Módulo de corte de automação AGM</li><li>Sistema de empilhamento de grupo de automação/alinhamento e rejeição</li><li>Configuração fácil de parâmetros </li><li>Sistema de recarga de células de rejeição</li></ul>",
+            "St100GF": "<ul> <li>Sistema de alimentação de placas</li> <li>Módulo de automação de corte de AGM</li> <li>Sistema de automação de empilhamento de grupos / Alinhamento e Rejeição</li> <li>Parâmetros facilmente ajustáveis</li> <li>Sistema de recarga de Célula de Rejeição</li> </ul>",
             
             "Envelopers":"Envelopadoras",
             "EnvelopingAndStackingMachine":"Máquina de Envolver e Empilhar",
@@ -357,10 +359,10 @@
             "StackingMachineGF":"",
             
             "COSCastonStrap":"COS-Cast on Strap",
-            "Cos300": "COS-300 braço COS de alta capacidade totalmente automático<br />série COS (Robô B/B)",
-            "Cos300GF": "<ul><li>Mecanismo de braço robótico de 6 eixos</li><li>Mecanismo de lubrificação automática</li><li>Sistema de descarte de moldes</li><li>Sistema de monitoramento de nivelamento de chumbo</li ><li>Sistema de Fornecimento de Chumbo</li></ul>",
-            "Gir06": "GIR-06 Automatic Pole Group Robotic Arm Insertion System <br /> GIR series",
-            "Gir06GF": "<ul> <li>Aplicável para vários tipos</li> <li>Conexão de substituição de grupo para todas as distâncias fixas da máquina de empilhamento</li> <li>Aplicável para placas de fundição/extensão/perfuração</li > </ul>",
+            "Cos300": "COS-300 Braço COS totalmente automático de alta capacidade<br />série COS (Robô B/B)",
+            "Cos300GF": "<ul> <li>Mecanismo de braço robótico de 6 eixos.</li> <li>Mecanismo automático de lubrificação</li> <li>Sistema de sucateamento de molde.</li> <li>Sistema de monitoramento de nível de chumbo</li> <li>Sistema de fornecimento de chumbo</li> </ul>",
+            "Gir06": "GIR-06 Sistema automático de inserção de grupos de polos com robótico braço <br /> GIR series",
+            "Gir06GF": "<ul> <li>Aplicável para múltiplos tipos</li> <li>Conexão de reposição de grupos para todas as distâncias fixas de máquinas de empilhamento</li> <li>Aplicável para Fundidora / Extensora / Placas prensadas</li> </ul>",
 
             "ShortCircuitTesters":"Testadoras de Curto Circuito",
             "ShortCircuitTestersMachine":"Máquina de Testadores de Curto-Circuito",
@@ -379,7 +381,7 @@
             "AutomaticMultifunctionalWeldingMachine": "Máquina multifuncional de solda automática",
             "AutomaticMultifunctionalWeldingMachineGF": "<ul> <li>Tamanho aplicável das baterias: C 180-525, L 120-285, A 150-220 (em mm)</li> <li>Tempo de ciclo: 3~5 baterias/minuto.</li> <li>Tecnologia patenteada de solda inteligente, melhorando enormemente a qualidade da solda e estabilidade da operação.</li> <li>Outras estações funcionais podem ser selecionadas para combinação, tais como: Teste de curto, Teste de polaridade, Teste de torque e Teste de resistência interna;</li> <li>Interface Gráfica da máquina, de fácil entendimento;</li> <li>Equipada com equipamento de resfriamento de água e sistema de detecção de temperatura, os quais podem controlar os estado de temperatura de solda.</li> </ul>",
             "AutomaticMultifunctionalWeldingMachineMD": "<ul> <li>Tamanho e peso aproximados: L 3650 x D 2000 x A 2250 (em mm), 2200kg</li> <li>CLP: MITSUBISHI, Painel de toque: PROFACE, Controlador: MIYACHI</li> <li>Ar comprimido: 5~6kg/cm²</li> </ul>",
-            "Icw300": "Máquina de Soldadura de Penetração de Parede Automática ICW-300 <br /> Série ICW",
+            "Icw300": "ICW-300 Máquina automática de solda de penetração de parede <br /> Série ICW",
             "Icw300GF": "<ul> <li>Distância de solda e Pressão podem ser ajustadas</li> <li>Ajuste individual de posição ICW</li> <li>Módulo controlado por servo motor</li> <li>Novo design de chip</li> <li>Painel de controle</li> <li>Aquisição de dados</li> </ul>",
 
             "ShearTesters":"Testadoras de Torque",
@@ -425,6 +427,8 @@
             "AutomaticAirLeakTestingMachineMD": "<ul> <li>Tamanho e peso aproximados: L 1520 x D 1400x A 2100 (in mm), 250kg</li> <li>CLP: MITSUBICHI, Painel touch: PROFACE</li> <li>Ar comprimido: 5~6kg/cm²</li> </ul>",
 
             "Engravers":"Codificadoras",
+            "AirLeakTestingAndEngraving":"Teste e gravação de vazamento de ar",
+            "AirLeakTestingAndEngravingGF":"",
 
         "_COMMENT_Finishing_Lines": "",
             "AcidFillingMachines": "Enchedoras de Ácido",
@@ -467,9 +471,9 @@
 
         "_COMMENT_Complete_Projects": "",
             "AssemblyLines": "Linhas de Montagem",
-            "MotorcycleAssemblyLine": "Linha de montagem de baterias Motociclísticas",
+            "MotorcycleAssemblyLine": "Linha de Montagem de Baterias Motociclísticas",
             "MotorcycleAssemblyLineGF": "<ul> <li>Simples / VRLA</li> <li>Customizada</li> <li>Melhor qualidade</li> </ul>",
-            "AutomotiveAssemblyLine": "Linha de montagem de baterias de carro",
+            "AutomotiveAssemblyLine": "Linha de Montagem de Baterias Automotivas",
             "AutomotiveAssemblyLineGF": "<ul> <li>Simples / VRLA</li> <li>Customizada</li> <li>Melhor qualidade</li> </ul>",
 
             "ContinuousGridCastingSystem": "Sistema de Fundição Contínua de Grades",
@@ -702,6 +706,8 @@
             "AutomaticAirLeakTestingMachineMD": "<ul> <li>大約。 尺寸和重量 : W 1520 x D 1400x H 2100 (in mm), 250kg</li> <li>PLC : MITSUBISHI, Touch panel : PROFACE</li> <li>壓縮空氣：5~6kg/cm2</li> </ul>",
 
             "Engravers":"雕刻師",
+            "AirLeakTestingAndEngraving":"空氣洩漏測試和雕刻",
+            "AirLeakTestingAndEngravingGF":"",
 
         "_COMMENT_Finishing_Lines": "",
             "AcidFillingMachines": "酸灌裝機",

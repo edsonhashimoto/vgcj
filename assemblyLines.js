@@ -133,6 +133,10 @@ $(document).ready(
             document.getElementById("figAutomaticAirLeakTestingMachine").setAttribute("alt", language.ProductObject.AutomaticAirLeakTestingMachine);
 
             document.getElementById("tEngravers").innerHTML = language.ProductObject.Engravers;		
+            document.getElementById("tAirLeakTestingAndEngraving").innerHTML = language.ProductObject.AirLeakTestingAndEngraving;
+            document.getElementById("tAirLeakTestingAndEngravingGF").innerHTML = language.ProductObject.AirLeakTestingAndEngravingGF;
+            document.getElementById("figAirLeakTestingAndEngraving").innerHTML = language.ProductObject.AirLeakTestingAndEngraving;
+            document.getElementById("figAirLeakTestingAndEngraving").setAttribute("alt", language.ProductObject.AirLeakTestingAndEngraving);
         }
 
         HeaderFotter(funcaoExtraLocal);
