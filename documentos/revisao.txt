@@ -1,0 +1,8 @@
+Estou fazendo as revisões.
+Tomei a liberdade de colocar os q sao textos num corretor ortográfico só pra corrigir algumas acentuações e concordancias.
+O assembly lines tinha bastante coisa pq eu tinha feito antes do seu mapa mental, entao acabei nem me atentando mto com as descrições.
+Acho q ficaria mais facil, se vc nao colocasse todas as descrições dos equipamentos q sao iguais do mapa mental, em vermelho. Te pouparia trabalho tb. Se for a mesma coisa do mapa mental, so citar pra eu ver la pra corrigir, como vc fez em alguns. 
+
+Dos que vc passou, já acertei, mas verifique, pq com ctz eu devo ter deixado passar alguma coisa.
+
+Outra coisa.. os títulos vc prefere CamelCase (com a primeira letra maiúscula) "Linha de Montagem de Baterias Motociclísticas" ou normal "Linha de montagem de baterias motociclísticas." ?
