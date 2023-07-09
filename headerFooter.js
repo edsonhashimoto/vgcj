@@ -91,7 +91,7 @@ export async function HeaderFooter(funcaoExtra) {
         
             const oldContent = document.querySelector('main');
             const newContent = newHtml.querySelector('main');
-            oldContent.innerHTML = newContent.innerHTML; 
+            oldContent.innerHTML = newContent.innerHTML;
             IndexLanguage();
 
             setTimeout(function(){
@@ -116,7 +116,7 @@ export async function HeaderFooter(funcaoExtra) {
         link.addEventListener('click', scroolToSection);
     });
     
-    const linksProducts = document.querySelectorAll('.mProduct');
+    const linksMenus = document.querySelectorAll('.mMenu');
 
     function handleClick(event){
         event.preventDefault();
@@ -140,7 +140,10 @@ export async function HeaderFooter(funcaoExtra) {
 
         oldContent.innerHTML = newContent.innerHTML;        
        
-        if(currentTargetId === 'mPlateMaking'){
+        if(currentTargetId === 'mHome'){
+            IndexLanguage();
+        }
+        else if(currentTargetId === 'mPlateMaking'){
             PlateMakingLanguage();
         }
         else if(currentTargetId === 'mAssemblyLine'){
@@ -160,7 +163,7 @@ export async function HeaderFooter(funcaoExtra) {
         }
     };
 
-    linksProducts.forEach(link => {
+    linksMenus.forEach(link => {
         link.addEventListener('click', handleClick);
     });
 }
