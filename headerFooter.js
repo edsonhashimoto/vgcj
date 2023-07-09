@@ -81,7 +81,7 @@ export async function HeaderFooter(funcaoExtra) {
         event.preventDefault();
         const href =  event.currentTarget.getAttribute('href');
 
-        if(window.location.pathname !== '/' ){ //index
+        if(window.location.pathname.replace('/vgcj','') !== '/' ){ //index
             const pageResponse = await fetch('index.html');
             window.history.pushState(null,null,'/');
             const pageText = await pageResponse.text();
