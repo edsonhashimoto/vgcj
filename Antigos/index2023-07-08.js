@@ -1,5 +1,5 @@
 'use strict';
-import { HeaderFotter } from "./headerFooter.js";
+import { HeaderFooter } from "./headerFooter.js";
 
 $(document).ready(
     function () {
@@ -30,7 +30,7 @@ $(document).ready(
            
         }
         
-        HeaderFotter(funcaoExtraLocal);
+        HeaderFooter(funcaoExtraLocal);
 
     }
     

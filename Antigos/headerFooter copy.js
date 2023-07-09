@@ -1,5 +1,5 @@
 'use strict';
-export async function HeaderFotter(funcaoExtra) {
+export async function HeaderFooter(funcaoExtra) {
     const responseHeader = await fetch('./header.html');
     const dadosHeader = await responseHeader.text();
     const divHeader = document.getElementById("header");

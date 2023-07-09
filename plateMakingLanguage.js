@@ -1,7 +1,7 @@
 'use strict';
 import { HeaderFooter } from "./headerFooter.js";
-HeaderFooter();
-export async function PlateMaking () {
+
+export function PlateMakingLanguage() {
     function funcaoExtraLocal() {
         const language = JSON.parse(localStorage.getItem('language'));
 
@@ -66,5 +66,5 @@ export async function PlateMaking () {
         document.getElementById("figCuringDryingChamber").setAttribute("alt", language.ProductObject.CuringDryingChamber);
     }
 
-    
+    HeaderFooter(funcaoExtraLocal);
 };

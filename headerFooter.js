@@ -1,8 +1,9 @@
 'use strict';
 import { IndexLanguage } from "./indexLanguage.js";
 import { AssemblyLinesLanguage } from "./assemblyLinesLanguage.js";
+import { PlateMakingLanguage } from "./plateMakingLanguage.js";
 
-export async function HeaderFotter(funcaoExtra) {
+export async function HeaderFooter(funcaoExtra) {
     const responseHeader = await fetch('./header.html');
     const dadosHeader = await responseHeader.text();
     const divHeader = document.getElementById("header");
@@ -87,14 +88,16 @@ export async function HeaderFotter(funcaoExtra) {
             const oldContent = document.querySelector('main');
             const newContent = newHtml.querySelector('main');
             oldContent.innerHTML = newContent.innerHTML; 
+            IndexLanguage();
+
             setTimeout(function(){
                 const section = document.querySelector(href);
-                IndexLanguage();
                 section.scrollIntoView({
                     behavior: 'smooth',
                     block:'start'
                 });
-            }, 50); 
+            }, 150); 
+           
         }
         else{
             const section = document.querySelector(href);
@@ -109,12 +112,21 @@ export async function HeaderFotter(funcaoExtra) {
         link.addEventListener('click', scroolToSection);
     });
 
+
+    
     const linksProducts = document.querySelectorAll('.mProduct');
 
     function handleClick(event){
         event.preventDefault();
         fetchPage(event.target.href);
         window.history.pushState(null,null,event.target.href);
+
+        if(event.currentTarget.id === 'mAssemblyLine'){
+            AssemblyLinesLanguage();
+        }
+        else if(event.currentTarget.id === 'mPlateMaking'){
+            PlateMakingLanguage();
+        }
     };
 
     async function fetchPage(url){
@@ -130,9 +142,8 @@ export async function HeaderFotter(funcaoExtra) {
         const oldContent = document.querySelector('main');
         const newContent = newHtml.querySelector('main');
 
-        oldContent.innerHTML = newContent.innerHTML;
-
-        AssemblyLinesLanguage();
+        oldContent.innerHTML = newContent.innerHTML;        
+       
     };
 
     linksProducts.forEach(link => {

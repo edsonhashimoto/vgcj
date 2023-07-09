@@ -27,6 +27,13 @@ export async function IndexLanguage() {
         document.getElementById("tTechnicalSupport").innerHTML = language.TechnicalSupport;
         document.getElementById("tTechnicalSupportService").innerHTML = language.TechnicalSupportService;   
         
+        debugger;
+        const banner = await fetch('./img/banner.png');
+        document.querySelector('#banner1').src = banner.url;
+
+        const banner2 = await fetch('./img/banner2.png');
+        document.querySelector('#banner2').src = banner2.url;
+        
     }
     HeaderFooter(funcaoExtraLocal);
 

@@ -1,8 +1,8 @@
 'use strict';
-//import { HeaderFotter } from "./headerFooter.js";
+import { HeaderFooter } from "./headerFooter.js";
 
 export function AssemblyLinesLanguage() {    
-    //async function funcaoExtraLocal() {
+    function funcaoExtraLocal() {
         const language = JSON.parse(localStorage.getItem('language'));
 
         const tGeneralFeatures = document.querySelectorAll(".tGeneralFeatures");
@@ -137,7 +137,7 @@ export function AssemblyLinesLanguage() {
         document.getElementById("figAirLeakTestingAndEngraving").innerHTML = language.ProductObject.AirLeakTestingAndEngraving;
         document.getElementById("figAirLeakTestingAndEngraving").setAttribute("alt", language.ProductObject.AirLeakTestingAndEngraving);
         
-    //}
-    //HeaderFotter(funcaoExtraLocal);
+    }
+    HeaderFooter(funcaoExtraLocal);
 
 };

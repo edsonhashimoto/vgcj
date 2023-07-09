@@ -1,5 +1,5 @@
 'use strict';
-import { HeaderFotter } from "./headerFooter.js";
+import { HeaderFooter } from "./headerFooter.js";
 //import { PlateMaking } from "./plateMaking.js";
 
 $(document).ready(
@@ -66,7 +66,7 @@ $(document).ready(
            
         }
         
-        HeaderFotter(funcaoExtraLocal);
+        HeaderFooter(funcaoExtraLocal);
 
     }
     

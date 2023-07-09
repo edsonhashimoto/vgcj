@@ -1,4 +1,4 @@
-/* import { HeaderFotter } from "./headerFooter.js";
+/* import { HeaderFooter } from "./headerFooter.js";
 
 $(document).ready(
     function () {
@@ -15,5 +15,5 @@ $(document).ready(
             document.getElementById("tTechnicalSupportService").innerHTML = language.TechnicalSupportService;
         }
 
-        HeaderFotter(funcaoExtraLocal);
+        HeaderFooter(funcaoExtraLocal);
     }); */
