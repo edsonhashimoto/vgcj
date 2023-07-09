@@ -1,7 +1,4 @@
 'use strict';
-import { IndexLanguage } from "./indexLanguage.js";
-import { AssemblyLinesLanguage } from "./assemblyLinesLanguage.js";
-
 export async function HeaderFotter(funcaoExtra) {
     const responseHeader = await fetch('./header.html');
     const dadosHeader = await responseHeader.text();
@@ -14,7 +11,6 @@ export async function HeaderFotter(funcaoExtra) {
     divFooter.innerHTML = dadosFooter;
 
     async function loadLanguage() {
-        
         const responseLanguage = await fetch('language.json');
         const dados = await responseLanguage.json();
         let language;
@@ -44,6 +40,7 @@ export async function HeaderFotter(funcaoExtra) {
         document.getElementById("mSpareParts").innerHTML = language.SpareParts;
         document.getElementById("mMaterialSupply").innerHTML = language.MaterialSupply;
 
+
         funcaoExtra();
 
     }
@@ -70,72 +67,4 @@ export async function HeaderFotter(funcaoExtra) {
         }
     );
 
-    const linksSmoothScroll = document.querySelectorAll('.mSmoothScroll');
-
-    async function scroolToSection(event){
-        event.preventDefault();
-        const href =  event.currentTarget.getAttribute('href');
-
-        if(window.location.pathname !== '/' ){ //index
-            const pageResponse = await fetch('index.html');
-            window.history.pushState(null,null,'/');
-            const pageText = await pageResponse.text();
-
-            const newHtml = document.createElement('div');
-            newHtml.innerHTML = pageText;
-        
-            const oldContent = document.querySelector('main');
-            const newContent = newHtml.querySelector('main');
-            oldContent.innerHTML = newContent.innerHTML; 
-            setTimeout(function(){
-                const section = document.querySelector(href);
-                IndexLanguage();
-                section.scrollIntoView({
-                    behavior: 'smooth',
-                    block:'start'
-                });
-            }, 50); 
-        }
-        else{
-            const section = document.querySelector(href);
-            section.scrollIntoView({
-                behavior: 'smooth',
-                block:'start'
-            });
-        }
-    }
-
-    linksSmoothScroll.forEach(link => {
-        link.addEventListener('click', scroolToSection);
-    });
-
-    const linksProducts = document.querySelectorAll('.mProduct');
-
-    function handleClick(event){
-        event.preventDefault();
-        fetchPage(event.target.href);
-        window.history.pushState(null,null,event.target.href);
-    };
-
-    async function fetchPage(url){
-        const pageResponse = await fetch(url);
-        const pageText = await pageResponse.text();
-        replaceContent(pageText);
-    }
-
-    function replaceContent(newText){
-        const newHtml = document.createElement('div');
-        newHtml.innerHTML = newText;
-
-        const oldContent = document.querySelector('main');
-        const newContent = newHtml.querySelector('main');
-
-        oldContent.innerHTML = newContent.innerHTML;
-
-        AssemblyLinesLanguage();
-    };
-
-    linksProducts.forEach(link => {
-        link.addEventListener('click', handleClick);
-    });
 }
