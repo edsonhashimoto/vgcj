@@ -115,44 +115,23 @@ export async function HeaderFooter(funcaoExtra) {
     linksSmoothScroll.forEach(link => {
         link.addEventListener('click', scroolToSection);
     });
-
-
     
     const linksProducts = document.querySelectorAll('.mProduct');
 
     function handleClick(event){
         event.preventDefault();
 
-        fetchPage(event.target.href);
-        window.history.pushState(null,null,event.target.href);
-
-        if(event.currentTarget.id === 'mPlateMaking'){
-            PlateMakingLanguage();
-        }
-        else if(event.currentTarget.id === 'mAssemblyLine'){
-            AssemblyLinesLanguage();
-        }
-        else if(event.currentTarget.id === 'mFinishingLine'){
-            FinishingLineLanguage();
-        }
-        else if(event.currentTarget.id === 'mCompleteProjects'){
-            CompleteProjectsLanguage();
-        }
-        else if(event.currentTarget.id === 'mUniqueEquipment'){
-            UniqueEquipmentLanguage();
-        }
-        else if(event.currentTarget.id === 'mMaterialSupply'){
-            MaterialSupplyLanguage();
-        }
+        fetchPage(event.target.href, event.currentTarget.id);
+        window.history.pushState(null,null, event.target.href);        
     };
 
-    async function fetchPage(url){
+    async function fetchPage(url, currentTargetId){
         const pageResponse = await fetch(url);
         const pageText = await pageResponse.text();
-        replaceContent(pageText);
+        replaceContent(pageText, currentTargetId);
     }
 
-    function replaceContent(newText){
+    function replaceContent(newText, currentTargetId){
         const newHtml = document.createElement('div');
         newHtml.innerHTML = newText;
 
@@ -161,6 +140,24 @@ export async function HeaderFooter(funcaoExtra) {
 
         oldContent.innerHTML = newContent.innerHTML;        
        
+        if(currentTargetId === 'mPlateMaking'){
+            PlateMakingLanguage();
+        }
+        else if(currentTargetId === 'mAssemblyLine'){
+            AssemblyLinesLanguage();
+        }
+        else if(currentTargetId === 'mFinishingLine'){
+            FinishingLineLanguage();
+        }
+        else if(currentTargetId === 'mCompleteProjects'){
+            CompleteProjectsLanguage();
+        }
+        else if(currentTargetId === 'mUniqueEquipment'){
+            UniqueEquipmentLanguage();
+        }
+        else if(currentTargetId === 'mMaterialSupply'){
+            MaterialSupplyLanguage();
+        }
     };
 
     linksProducts.forEach(link => {
