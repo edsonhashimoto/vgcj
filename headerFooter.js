@@ -75,8 +75,9 @@ export async function HeaderFooter(funcaoExtra) {
 
     async function scroolToSection(event){
         event.preventDefault();
+        debugger;
         const href =  event.currentTarget.getAttribute('href');
-
+        console.log('pathname ',window.location.pathname);
         if(window.location.pathname !== '/' ){ //index
             const pageResponse = await fetch('index.html');
             window.history.pushState(null,null,'/');
