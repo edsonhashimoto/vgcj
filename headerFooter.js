@@ -8,12 +8,12 @@ import { UniqueEquipmentLanguage } from "./uniqueEquipmentLanguage.js";
 import { MaterialSupplyLanguage } from "./materialSupplyLanguage.js";
 
 export async function HeaderFooter(funcaoExtra) {
-    const responseHeader = await fetch('header.html');
+    const responseHeader = await fetch('./header.html');
     const dadosHeader = await responseHeader.text();
     const divHeader = document.getElementById("header");
     divHeader.innerHTML = dadosHeader;
 
-    const responseFooter = await fetch('footer.html');
+    const responseFooter = await fetch('./footer.html');
     const dadosFooter = await responseFooter.text();
     const divFooter = document.getElementById("footer");
     divFooter.innerHTML = dadosFooter;
@@ -83,7 +83,7 @@ export async function HeaderFooter(funcaoExtra) {
 
         if(window.location.pathname.replace('/vgcj','') !== '/' ){ //index
             const pageResponse = await fetch('index.html');
-            window.history.pushState(null,null,'/');
+            window.history.pushState(null,null,'./');
             const pageText = await pageResponse.text();
 
             const newHtml = document.createElement('div');
