@@ -103,7 +103,8 @@ export async function HeaderFooter(funcaoExtra) {
             }, 150); 
            
         }
-        else{
+        else
+        {
             const section = document.querySelector(href);
             section.scrollIntoView({
                 behavior: 'smooth',

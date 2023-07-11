@@ -1,4 +1,5 @@
-Estou fazendo as revisões.
+Boa noite. 
+Terminei as revisões do PDF q vc passou, e agora algumas dúvidas.
 Tomei a liberdade de colocar os q sao textos num corretor ortográfico só pra corrigir algumas acentuações e concordancias.
 
 Nas descrições dos Projetos completos:
@@ -12,3 +13,5 @@ Uma sugestão qdo vc for fazer essas revisões, nao colocar todas as descriçõe
 Dos que vc passou, já acertei e revisei, mas verifique, pq com ctz eu devo ter deixado passar alguma coisa.
 
 Outra coisa.. os títulos vc prefere CamelCase (com a primeira letra maiúscula) "Linha de Montagem de Baterias Motociclísticas" ou normal "Linha de montagem de baterias motociclísticas." ?
+
+Ontem fiquei muito contente. Consegui fazer a transição das páginas ficar fluída. Qdo vc navega, vc nao sente mais o "reload" das páginas.
